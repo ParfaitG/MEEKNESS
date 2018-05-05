@@ -1,0 +1,56 @@
+CREATE TABLE Characters 
+(
+   ID NUMBER(5) PRIMARY KEY,
+   Character VARCHAR2(255 CHAR),
+   Description VARCHAR2(1000 CHAR),
+   Quote VARCHAR2(1500 CHAR),
+   Picture BLOB, 
+   LinkImage VARCHAR2(255 CHAR)
+);
+CREATE SEQUENCE char_seq START WITH 1;
+CREATE OR REPLACE TRIGGER char_autonum
+  BEFORE INSERT ON Characters
+  FOR EACH ROW
+BEGIN
+   :new.ID := char_seq.NEXTVAL;
+END;
+/
+CREATE TABLE Qualities 
+(
+   ID NUMBER(5) PRIMARY KEY,
+   CharacterID NUMBER(5),
+   Quality VARCHAR2(255 CHAR),
+   Special NUMBER(1),
+   CONSTRAINT CharFk FOREIGN KEY (CharacterID) 
+     REFERENCES Characters(ID)
+);
+CREATE SEQUENCE qual_seq START WITH 1;
+CREATE OR REPLACE TRIGGER qual_autonum
+  BEFORE INSERT ON Qualities
+  FOR EACH ROW
+BEGIN
+   :new.ID := qual_seq.NEXTVAL;
+END;
+/
+CREATE TABLE Works
+(
+   ID NUMBER(5) PRIMARY KEY,
+   CharacterID NUMBER(5),
+   Title VARCHAR2(255 CHAR),
+   Creator VARCHAR2(255 CHAR),
+   YearCreated NUMBER(5),
+   YearPeriod VARCHAR(5 CHAR),
+   WorksType VARCHAR2(255 CHAR),
+   Company VARCHAR2(255 CHAR),
+   OtherCreator VARCHAR2(255 CHAR),
+   CONSTRAINT WorksFk FOREIGN KEY (CharacterID) 
+     REFERENCES Characters(ID)
+);
+CREATE SEQUENCE works_seq START WITH 1;
+CREATE OR REPLACE TRIGGER works_autonum
+  BEFORE INSERT ON Works
+  FOR EACH ROW
+BEGIN
+   :new.ID := works_seq.NEXTVAL;
+END;
+/

@@ -1,0 +1,4372 @@
+[
+    {
+        "id": 1,
+        "Character": "Al Borland",
+        "Source": "Home Improvement, sitcom",
+        "LinkImage": "AlBorland.jpg",
+        "Qualities": [
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "quiet "
+            },
+            {
+                "Quality": "mama's boy"
+            },
+            {
+                "Quality": "sentimental"
+            },
+            {
+                "Quality": "antics"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "tools"
+            },
+            {
+                "Quality": "sitcom"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "handyman"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "Character": "Al Bundy",
+        "Source": "Married with Children, sitcom",
+        "LinkImage": "AlBundy.jpg",
+        "Qualities": [
+            {
+                "Quality": "sports"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "middle-aged"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "sitcom"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "high school"
+            },
+            {
+                "Quality": "shoes"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "Character": "Alyosha",
+        "Source": "Brothers Karamazov, novel",
+        "LinkImage": "Alyosha.jpg",
+        "Qualities": [
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "finances"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "funeral"
+            },
+            {
+                "Quality": "monastery"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "Character": "Arthur Dimmesdale",
+        "Source": "The Scarlet Letter, novel",
+        "LinkImage": "ArthurDimmesdale.jpg",
+        "Qualities": [
+            {
+                "Quality": "sick"
+            },
+            {
+                "Quality": "preacher"
+            },
+            {
+                "Quality": "New England"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "immorality"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "reputation"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "Character": "Athlete Dying Young",
+        "Source": "A.E. Housman poem",
+        "LinkImage": "AthleteDying.jpg",
+        "Qualities": [
+            {
+                "Quality": "sports"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "things of this world"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "running"
+            },
+            {
+                "Quality": "vanity"
+            },
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "flower"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "track and field"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "Character": "Barney Gumble",
+        "Source": "The Simpsons, sitcom",
+        "LinkImage": "Barney.jpg",
+        "Qualities": [
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "middle-age"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "film"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "Character": "Bartleby",
+        "Source": "Herman Melville short story",
+        "LinkImage": "Bartleby.jpg",
+        "Qualities": [
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "mystery"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "low intelligence"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "novella"
+            },
+            {
+                "Quality": "preferences"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "Character": "Belle",
+        "Source": "Beauty and the Beast, movie",
+        "LinkImage": "Belle.jpg",
+        "Qualities": [
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "fantasy"
+            },
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "flower"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "dance"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "reading"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "Character": "Bernard",
+        "Source": "Death of a Salesman, play",
+        "LinkImage": "Bernard.jpg",
+        "Qualities": [
+            {
+                "Quality": "theatrical play"
+            },
+            {
+                "Quality": "nerd"
+            },
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "high school"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "studious"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "Character": "Bigger Thomas",
+        "Source": "Native Son, novel",
+        "LinkImage": "BiggerThomas.jpg",
+        "Qualities": [
+            {
+                "Quality": "ghetto"
+            },
+            {
+                "Quality": "uneducated"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "blind"
+            },
+            {
+                "Quality": "outcast"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "electric chair"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "Character": "Billy Pilgrim",
+        "Source": "Slaughterhouse Five, novel",
+        "LinkImage": "BillyPilgrim.jpg",
+        "Qualities": [
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "loss"
+            },
+            {
+                "Quality": "madness"
+            },
+            {
+                "Quality": "vanity"
+            },
+            {
+                "Quality": "time"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "Character": "Bleeding Gums Murphy",
+        "Source": "The Simpsons, sitcom",
+        "LinkImage": "BleedingGums.jpg",
+        "Qualities": [
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "fame"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "finances"
+            },
+            {
+                "Quality": "hospital"
+            },
+            {
+                "Quality": "jazz"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "Character": "Bob Cratchit",
+        "Source": "A Christmas Carol, novella",
+        "LinkImage": "BobCratchit.jpg",
+        "Qualities": [
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "Christmas"
+            },
+            {
+                "Quality": "obedient"
+            },
+            {
+                "Quality": "clerk"
+            },
+            {
+                "Quality": "winter"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "urban"
+            },
+            {
+                "Quality": "working class"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "Character": "Brooks Hatlen",
+        "Source": "The Shawshank Redemption, movie",
+        "LinkImage": "BrooksHatlen.jpg",
+        "Qualities": [
+            {
+                "Quality": "prison"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "old age"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "film"
+            },
+            {
+                "Quality": "freedom"
+            },
+            {
+                "Quality": "speed"
+            },
+            {
+                "Quality": "bird"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "Character": "C. Green",
+        "Source": "Thomas Wolfe short story",
+        "LinkImage": "CGreen.jpg",
+        "Qualities": [
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "short story"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "newspaper"
+            },
+            {
+                "Quality": "urban"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "manswarm atom"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "Character": "C-3PO",
+        "Source": "Star Wars, movie",
+        "LinkImage": "C3PO.jpg",
+        "Qualities": [
+            {
+                "Quality": "machine"
+            },
+            {
+                "Quality": "space"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "film"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "language"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "Character": "Captain Ahab",
+        "Source": "Moby Dick, novel",
+        "LinkImage": "CaptainAhab.jpg",
+        "Qualities": [
+            {
+                "Quality": "sea"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "old age"
+            },
+            {
+                "Quality": "madness"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "white whale"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "Character": "Captain Willard",
+        "Source": "Apocalypse Now, movie",
+        "LinkImage": "CaptainWillard.jpg",
+        "Qualities": [
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "unsure"
+            },
+            {
+                "Quality": "madness"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "thoughts"
+            },
+            {
+                "Quality": "gun"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "jungle"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "Character": "Carlton Banks",
+        "Source": "Fresh Prince of Bel-Air, sitcom",
+        "LinkImage": "CarltonBanks.jpg",
+        "Qualities": [
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "dance"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "attorney"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "antics"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "preppy"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "Character": "Cash Bundren",
+        "Source": "As I Lay Dying, novel",
+        "LinkImage": "CashBundren.jpg",
+        "Qualities": [
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "journey"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "brother "
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "rural"
+            },
+            {
+                "Quality": "tools"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "carpenter"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "Character": "Charles Foster Kane",
+        "Source": "Citizen Kane, movie",
+        "LinkImage": "CharlesKane.jpg",
+        "Qualities": [
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "meager origins"
+            },
+            {
+                "Quality": "newspaper"
+            },
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "rosebud sled"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "Character": "Charley Parks",
+        "Source": "Twilight Zone, tv show",
+        "LinkImage": "CharleyParks.jpg",
+        "Qualities": [
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "toy"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "hospital"
+            },
+            {
+                "Quality": "madness"
+            },
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "freedom"
+            },
+            {
+                "Quality": "mystery"
+            },
+            {
+                "Quality": "museum"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "Character": "Charlie Bucket",
+        "Source": "Willy Wonka and the Chocolate Factory, movie",
+        "LinkImage": "CharlieBucket.jpg",
+        "Qualities": [
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "fantasy"
+            },
+            {
+                "Quality": "chocolate"
+            },
+            {
+                "Quality": "newspaper"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "film"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "golden ticket"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "Character": "Charlie Gordon",
+        "Source": "Flowers for Algernon, novel",
+        "LinkImage": "CharlieGordon.jpg",
+        "Qualities": [
+            {
+                "Quality": "low intelligence"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "confidence"
+            },
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "hospital"
+            },
+            {
+                "Quality": "unsure"
+            },
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "mouse"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "Character": "Clarisse McClellan",
+        "Source": "Fahrenheit 451, novel",
+        "LinkImage": "ClarisseMcClellan.jpg",
+        "Qualities": [
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "nature"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "human moment"
+            },
+            {
+                "Quality": "speed"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "Character": "Daredevil",
+        "Source": "Spiderman, tv animated series",
+        "LinkImage": "Daredevil.jpg",
+        "Qualities": [
+            {
+                "Quality": "blind"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "radar sight"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "Character": "Data",
+        "Source": "Star Trek: The Next Generation, tv show",
+        "LinkImage": "Data.jpg",
+        "Qualities": [
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "machine"
+            },
+            {
+                "Quality": "space"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "television"
+            },
+            {
+                "Quality": "emotion"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "Character": "Denver",
+        "Source": "Beloved, novel",
+        "LinkImage": "Denver.jpg",
+        "Qualities": [
+            {
+                "Quality": "slavery"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "freedom"
+            },
+            {
+                "Quality": "immorality"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "124 home"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "Character": "Dorothy",
+        "Source": "Wizard of Oz, movie",
+        "LinkImage": "DorothyGale.jpg",
+        "Qualities": [
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "fantasy"
+            },
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "rural"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "sentimental"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "Kansas"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "Character": "Edmund Tyrone",
+        "Source": "Long Day's Journey into Night, play",
+        "LinkImage": "EdmundTyrone.jpg",
+        "Qualities": [
+            {
+                "Quality": "sea"
+            },
+            {
+                "Quality": "sick"
+            },
+            {
+                "Quality": "intellectual"
+            },
+            {
+                "Quality": "brother "
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "newspaper"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "fog"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "Character": "Edna Pontellier",
+        "Source": "The Awakening, novel",
+        "LinkImage": "EdnaPontellier.jpg",
+        "Qualities": [
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "vacation"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "sea"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "painting"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "Character": "Elizabeth Bates",
+        "Source": "D.H. Lawrence short story",
+        "LinkImage": "ElizabethBates.jpg",
+        "Qualities": [
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "flower"
+            },
+            {
+                "Quality": "house chores"
+            },
+            {
+                "Quality": "short story"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "coal mining"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "Character": "Emily Grierson",
+        "Source": "William Faulkner short story",
+        "LinkImage": "EmilyGrierson.jpg",
+        "Qualities": [
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "painting"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "mystery"
+            },
+            {
+                "Quality": "outcast"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "necrophiliac"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "Character": "Emily Webb",
+        "Source": "Our Town, play",
+        "LinkImage": "EmilyWebb.jpg",
+        "Qualities": [
+            {
+                "Quality": "New England"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "vision"
+            },
+            {
+                "Quality": "things of this world"
+            },
+            {
+                "Quality": "afterlife"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "human moment"
+            },
+            {
+                "Quality": "earth too beautiful"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "Character": "Emmeline Grangerford",
+        "Source": "The Adventures of Huckleberry Finn, novel",
+        "LinkImage": "Emmeline.jpg",
+        "Qualities": [
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "sick"
+            },
+            {
+                "Quality": "wearing black"
+            },
+            {
+                "Quality": "mystery"
+            },
+            {
+                "Quality": "painting"
+            },
+            {
+                "Quality": "elegies"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "Character": "Forrest Gump",
+        "Source": "Forrest Gump, movie",
+        "LinkImage": "ForrestGump.jpg",
+        "Qualities": [
+            {
+                "Quality": "low intelligence"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "running"
+            },
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "mama's boy"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "sports"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "bus"
+            },
+            {
+                "Quality": "American history"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "Character": "Frankenstein monster",
+        "Source": "Frankenstein, novel",
+        "LinkImage": "FrankensteinMonster.jpg",
+        "Qualities": [
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "nature"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "large"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "appearance"
+            },
+            {
+                "Quality": "monster"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "Character": "Fredo Corleone",
+        "Source": "The Godfather, movie",
+        "LinkImage": "FredoCorleone.jpg",
+        "Qualities": [
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "obedient"
+            },
+            {
+                "Quality": "confidence"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "underboss"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "Character": "Gart Williams",
+        "Source": "Twilight Zone, tv show",
+        "LinkImage": "GartWilliams.jpg",
+        "Qualities": [
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "nature"
+            },
+            {
+                "Quality": "serenity"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "jobs"
+            },
+            {
+                "Quality": "reputation"
+            },
+            {
+                "Quality": "advertisement agency"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "Character": "Gerty MacDowell",
+        "Source": "Ulysses, novel",
+        "LinkImage": "GertyMacDowell.jpg",
+        "Qualities": [
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "sentimental"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "beauty"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "wearing black"
+            },
+            {
+                "Quality": "Modernism"
+            },
+            {
+                "Quality": "feminine wiles"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "Character": "Girl, Monsieur Verdoux",
+        "Source": "Monsieur Verdoux, movie",
+        "LinkImage": "GirlMonsieurVerdoux.jpg",
+        "Qualities": [
+            {
+                "Quality": "prison"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "poison"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "Character": "H.E.R.",
+        "Source": "Common rap song",
+        "LinkImage": "HER.jpg",
+        "Qualities": [
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "ghetto"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "urban"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "California"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "commercialization"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "Character": "Hamlet",
+        "Source": "Hamlet, play",
+        "LinkImage": "Hamlet.jpg",
+        "Qualities": [
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "intellectual"
+            },
+            {
+                "Quality": "vanity"
+            },
+            {
+                "Quality": "wearing black"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "prince"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "Character": "Hannah",
+        "Source": "The Great Dictator, movie",
+        "LinkImage": "Hannah.jpg",
+        "Qualities": [
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "ghetto"
+            },
+            {
+                "Quality": "rural"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "Jewish persecution"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "Character": "Henry Corwin",
+        "Source": "Twilight Zone, tv show",
+        "LinkImage": "HenryCorwin.jpg",
+        "Qualities": [
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "Christmas"
+            },
+            {
+                "Quality": "television"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "middle-aged"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "mall"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "Character": "Hester Prynne",
+        "Source": "The Scarlet Letter, novel",
+        "LinkImage": "HesterPrynne.jpg",
+        "Qualities": [
+            {
+                "Quality": "New England"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "freedom"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "outcast"
+            },
+            {
+                "Quality": "immorality"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "scaffold"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "Character": "Holden Caufield",
+        "Source": "Catcher in the Rye, novel",
+        "LinkImage": "HoldenCaufield.jpg",
+        "Qualities": [
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "hospital"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "high school"
+            },
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "catcher mitt"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "Character": "Humboldt",
+        "Source": "Humboldt's Gift, novel",
+        "LinkImage": "Humboldt.jpg",
+        "Qualities": [
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "old age"
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "finances"
+            },
+            {
+                "Quality": "newspaper"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "intellectual"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "culture commodification"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "Character": "J. Alfred Prufrock",
+        "Source": "T.S. Eliot poem",
+        "LinkImage": "JAlfredPrufrock.jpg",
+        "Qualities": [
+            {
+                "Quality": "middle-aged"
+            },
+            {
+                "Quality": "unsure"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "inadequacy"
+            },
+            {
+                "Quality": "confidence"
+            },
+            {
+                "Quality": "urban"
+            },
+            {
+                "Quality": "Modernism"
+            },
+            {
+                "Quality": "intellectual"
+            },
+            {
+                "Quality": "sea"
+            },
+            {
+                "Quality": "20th century urban zeitgeist"
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "Character": "James Evans",
+        "Source": "Good Times, sitcom",
+        "LinkImage": "JamesEvans.jpg",
+        "Qualities": [
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "ghetto"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "jobs"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "sitcom"
+            },
+            {
+                "Quality": "1970s"
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "Character": "Jay Gatsby",
+        "Source": "The Great Gatsby, novel",
+        "LinkImage": "JayGatsby.jpg",
+        "Qualities": [
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "accident"
+            },
+            {
+                "Quality": "meager origins"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "1920s"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "Character": "Jerry Renault",
+        "Source": "The Chocolate War, novel",
+        "LinkImage": "JerryRenault.jpg",
+        "Qualities": [
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "against odds"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "New England"
+            },
+            {
+                "Quality": "chocolate"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "Character": "Jim Casey",
+        "Source": "The Grapes of Wrath, novel",
+        "LinkImage": "JimCasey.jpg",
+        "Qualities": [
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "journey"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "rural"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "California"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "preacher"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "Character": "Jim of Huck Finn",
+        "Source": "The Adventure of Huckleberry Finn, novel",
+        "LinkImage": "JimHuckFinn.jpg",
+        "Qualities": [
+            {
+                "Quality": "slavery"
+            },
+            {
+                "Quality": "journey"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "rural"
+            },
+            {
+                "Quality": "uneducated"
+            },
+            {
+                "Quality": "freedom"
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "Character": "Joan Clayton",
+        "Source": "Girlfriends, sitcom",
+        "LinkImage": "JoanClayton.jpg",
+        "Qualities": [
+            {
+                "Quality": "success"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "California"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "den mother"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "Character": "Job",
+        "Source": "The Bible",
+        "LinkImage": "Job.jpg",
+        "Qualities": [
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "things of this world"
+            },
+            {
+                "Quality": "sick"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "vanity"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "talks to God"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "Character": "John Coffey",
+        "Source": "The Green Mile, movie",
+        "LinkImage": "JohnCoffey.jpg",
+        "Qualities": [
+            {
+                "Quality": "prison"
+            },
+            {
+                "Quality": "electric chair"
+            },
+            {
+                "Quality": "uneducated"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "film"
+            },
+            {
+                "Quality": "large"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "healing"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "Character": "Jurgis",
+        "Source": "The Jungle, novel",
+        "LinkImage": "Jurgis.jpg",
+        "Qualities": [
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "foreign"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "past"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "immigrant oppression"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "Character": "Kattrin",
+        "Source": "Mother Courage, play",
+        "LinkImage": "Kattrin.jpg",
+        "Qualities": [
+            {
+                "Quality": "mute"
+            },
+            {
+                "Quality": "journey"
+            },
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "theatrical play"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "cart"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "Character": "Laura Wingfield",
+        "Source": "The Glass Menagerie, play",
+        "LinkImage": "LauraWingfield.jpg",
+        "Qualities": [
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "toy"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "beauty"
+            },
+            {
+                "Quality": "high school"
+            },
+            {
+                "Quality": "blue roses"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "Character": "Lennie",
+        "Source": "Of Mice and Men, novella",
+        "LinkImage": "Lennie.jpg",
+        "Qualities": [
+            {
+                "Quality": "low intelligence"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "journey"
+            },
+            {
+                "Quality": "jobs"
+            },
+            {
+                "Quality": "novella"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "large"
+            },
+            {
+                "Quality": "rural"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "rabbit"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "Character": "Lucynell Crater",
+        "Source": "Flannery O'Connor short story",
+        "LinkImage": "LucynellCrater.jpg",
+        "Qualities": [
+            {
+                "Quality": "mute"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "low intelligence"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "house chores"
+            },
+            {
+                "Quality": "short story"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "beauty"
+            },
+            {
+                "Quality": "handyman"
+            },
+            {
+                "Quality": "Angel of God"
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "Character": "Maggie Fitzgerald",
+        "Source": "Million Dollar Baby, movie",
+        "LinkImage": "MaggieFitzgerald.jpg",
+        "Qualities": [
+            {
+                "Quality": "sports"
+            },
+            {
+                "Quality": "accident"
+            },
+            {
+                "Quality": "hospital"
+            },
+            {
+                "Quality": "fame"
+            },
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "dog"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "boxing"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "Character": "Marilyn Cuberle",
+        "Source": "Twilight Zone, tv show",
+        "LinkImage": "MarilynCuberle.jpg",
+        "Qualities": [
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "assimilation"
+            },
+            {
+                "Quality": "beauty"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "reading"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "individuality"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "Character": "Marshall Will Kane",
+        "Source": "High Noon, movie",
+        "LinkImage": "MarshallKane.jpg",
+        "Qualities": [
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "gun"
+            },
+            {
+                "Quality": "film"
+            },
+            {
+                "Quality": "against odds"
+            },
+            {
+                "Quality": "Wild West"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "Character": "Mother in Black Christ",
+        "Source": "Countee Cullen poem, The Black Christ",
+        "LinkImage": "MotherBlackChrist.jpg",
+        "Qualities": [
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "old age"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "house chores"
+            },
+            {
+                "Quality": "Job's darker sister"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "Character": "Mr. Freeze",
+        "Source": "Batman, tv animated series",
+        "LinkImage": "MrFreeze.jpg",
+        "Qualities": [
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "accident"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "toy"
+            },
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "music box"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "Character": "Mr. Smith",
+        "Source": "Mr. Smith Goes to Washington, movie",
+        "LinkImage": "MrSmith.jpg",
+        "Qualities": [
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "against odds"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "lost causes"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "Character": "Mr. Spock",
+        "Source": "Star Trek: Original Series, tv show",
+        "LinkImage": "MrSpock.jpg",
+        "Qualities": [
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "space"
+            },
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "television"
+            },
+            {
+                "Quality": "logic"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "Character": "Mrs. Ramsay",
+        "Source": "To the Lighthouse, novel",
+        "LinkImage": "MrsRamsay.jpg",
+        "Qualities": [
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "vacation"
+            },
+            {
+                "Quality": "middle-aged"
+            },
+            {
+                "Quality": "Modernism"
+            },
+            {
+                "Quality": "thoughts"
+            },
+            {
+                "Quality": "intellectual"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "hostess"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "Character": "Fox Mulder",
+        "Source": "X-Files, tv show",
+        "LinkImage": "FoxMulder.jpg",
+        "Qualities": [
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "gun"
+            },
+            {
+                "Quality": "partner"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "truth"
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "Character": "Musician, Weary Blues",
+        "Source": "Langston Hughes poem, The Weary Blues",
+        "LinkImage": "MusicianWearyBlues.jpg",
+        "Qualities": [
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "sentimental"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "thoughts"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "blues"
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "Character": "Newman",
+        "Source": "Seinfeld, sitcom",
+        "LinkImage": "Newman.jpg",
+        "Qualities": [
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "neighbor"
+            },
+            {
+                "Quality": "madness"
+            },
+            {
+                "Quality": "antics"
+            },
+            {
+                "Quality": "sitcom"
+            },
+            {
+                "Quality": "postal worker"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "Character": "Obscure Youth",
+        "Source": "Walt Whitman poem, Ambition",
+        "LinkImage": "ObscureYouth.jpg",
+        "Qualities": [
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "fame"
+            },
+            {
+                "Quality": "vanity"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "oblivion"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "Character": "Perth",
+        "Source": "Moby Dick, novel",
+        "LinkImage": "Perth.jpg",
+        "Qualities": [
+            {
+                "Quality": "sea"
+            },
+            {
+                "Quality": "quiet "
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "wife"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "blacksmith"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "Character": "Quasimodo",
+        "Source": "The Hunchback of Notre Dame, novel",
+        "LinkImage": "Quasimodo.jpg",
+        "Qualities": [
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "monster"
+            },
+            {
+                "Quality": "unrequited love"
+            },
+            {
+                "Quality": "low intelligence"
+            },
+            {
+                "Quality": "outcast"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "bell tower"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "Character": "Waiting Man",
+        "Source": "Alan Seeger poem, Rendezvous",
+        "LinkImage": "WaitingMan.jpg",
+        "Qualities": [
+            {
+                "Quality": "waiting"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "flower"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "unrequited love"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "Character": "Robert Barone",
+        "Source": "Everybody Loves Raymond, sitcom",
+        "LinkImage": "RobertBarone.jpg",
+        "Qualities": [
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "dance"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "large"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "crazy chin"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "Character": "Rogue",
+        "Source": "X-Men, tv animated series",
+        "LinkImage": "Rogue.jpg",
+        "Qualities": [
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "innocence"
+            },
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "touch"
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "Character": "Roz Doyle",
+        "Source": "Frasier, sitcom",
+        "LinkImage": "RozDoyle.jpg",
+        "Qualities": [
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "middle-age"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "sitcom"
+            },
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "radio"
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "Character": "Ruth Younger",
+        "Source": "A Raisin in the Sun, play",
+        "LinkImage": "RuthYounger.jpg",
+        "Qualities": [
+            {
+                "Quality": "mother"
+            },
+            {
+                "Quality": "baby "
+            },
+            {
+                "Quality": "bitter "
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "house chores"
+            },
+            {
+                "Quality": "finances"
+            },
+            {
+                "Quality": "theatrical play"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "worn out wife"
+            }
+        ]
+    },
+    {
+        "id": 82,
+        "Character": "Santiago",
+        "Source": "The Old Man and the Sea, novella",
+        "LinkImage": "Santiago.jpg",
+        "Qualities": [
+            {
+                "Quality": "old age"
+            },
+            {
+                "Quality": "sea"
+            },
+            {
+                "Quality": "waiting"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "foreign"
+            },
+            {
+                "Quality": "novella"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "marlin"
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "Character": "Seven of Nine",
+        "Source": "Star Trek: Voyager, tv show",
+        "LinkImage": "SevenOfNine.jpg",
+        "Qualities": [
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "machine"
+            },
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "space"
+            },
+            {
+                "Quality": "television"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "individuality"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "assimilation"
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "Character": "Silver Surfer",
+        "Source": "Fantastic Four, tv animated series",
+        "LinkImage": "SilverSurfer.jpg",
+        "Qualities": [
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "alien"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "good vs evil"
+            },
+            {
+                "Quality": "prison"
+            },
+            {
+                "Quality": "space"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "surf board"
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "Character": "Soap Opera Girl",
+        "Source": "Waking Life, movie",
+        "LinkImage": "SoapOperaGirl.jpg",
+        "Qualities": [
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "politeness"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "train"
+            },
+            {
+                "Quality": "film"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "thoughts"
+            },
+            {
+                "Quality": "human moments"
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "Character": "Soldier Boy",
+        "Source": "Siegfried Sassoon poem",
+        "LinkImage": "SoldierBoy.jpg",
+        "Qualities": [
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "gun"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "trenches"
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "Character": "Speaker, A Winter Piece",
+        "Source": "William Cullen Bryant poem, A Winter Piece",
+        "LinkImage": "SpeakerWinterPiece.jpg",
+        "Qualities": [
+            {
+                "Quality": "nature"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "things of this world"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "serenity"
+            },
+            {
+                "Quality": "vanity"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "winter"
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "Character": "Speaker, The Suicide",
+        "Source": "Edna St. Vincent Millay poem, The Suicide",
+        "LinkImage": "SpeakerTheSuicide.jpg",
+        "Qualities": [
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "serenity"
+            },
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "afterlife"
+            },
+            {
+                "Quality": "childhood house"
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "Character": "Spiderman",
+        "Source": "Spiderman, tv animated series",
+        "LinkImage": "Spiderman.jpg",
+        "Qualities": [
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "nerd"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "confidence"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "responsibility"
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "Character": "Steve Urkel",
+        "Source": "Family Matters, sitcom",
+        "LinkImage": "SteveUrkel.jpg",
+        "Qualities": [
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "nerd"
+            },
+            {
+                "Quality": "neighbor"
+            },
+            {
+                "Quality": "confidence"
+            },
+            {
+                "Quality": "giving to others"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "clumsy"
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "Character": "The Terminator",
+        "Source": "Terminator 2, movie",
+        "LinkImage": "TheTerminator.jpg",
+        "Qualities": [
+            {
+                "Quality": "learning"
+            },
+            {
+                "Quality": "machine"
+            },
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "gun"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "sacrifice"
+            },
+            {
+                "Quality": "obedient"
+            },
+            {
+                "Quality": "protector"
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "Character": "The Thing",
+        "Source": "Fantastic Four, tv animated series",
+        "LinkImage": "TheThing.jpg",
+        "Qualities": [
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "blind"
+            },
+            {
+                "Quality": "space"
+            },
+            {
+                "Quality": "accident"
+            },
+            {
+                "Quality": "good vs. evil"
+            },
+            {
+                "Quality": "loss"
+            },
+            {
+                "Quality": "appearance"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "pilot"
+            },
+            {
+                "Quality": "rocky skin"
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "Character": "The Tramp",
+        "Source": "Charlie Chaplin silent movies",
+        "LinkImage": "TheTramp.jpg",
+        "Qualities": [
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "mute"
+            },
+            {
+                "Quality": "past"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "politeness"
+            },
+            {
+                "Quality": "antics"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "genteelism"
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "Character": "Thereza Ambrose",
+        "Source": "Limelight, movie",
+        "LinkImage": "TherezaAmbrose.jpg",
+        "Qualities": [
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "partner"
+            },
+            {
+                "Quality": "confidence"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "entertainment"
+            },
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "dance"
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "Character": "Tiny Tim",
+        "Source": "A Christmas Carol, novella",
+        "LinkImage": "TinyTim.jpg",
+        "Qualities": [
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "Christmas"
+            },
+            {
+                "Quality": "lame"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "urban"
+            },
+            {
+                "Quality": "novella"
+            },
+            {
+                "Quality": "blessings"
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "Character": "Tod Clifton",
+        "Source": "Invisible Man, novel",
+        "LinkImage": "TodClifton.jpg",
+        "Qualities": [
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "politics"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "speaker"
+            },
+            {
+                "Quality": "gun"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "high intelligence"
+            },
+            {
+                "Quality": "Brotherhood"
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "Character": "Tommy Wilhelm",
+        "Source": "Saul Bellow short story",
+        "LinkImage": "TommyWilhelm.jpg",
+        "Qualities": [
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "father "
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "city worker"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "novella"
+            },
+            {
+                "Quality": "finances"
+            },
+            {
+                "Quality": "thoughts"
+            },
+            {
+                "Quality": "jobs"
+            },
+            {
+                "Quality": "funeral"
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "Character": "Trip",
+        "Source": "Glory, movie",
+        "LinkImage": "Trip.jpg",
+        "Qualities": [
+            {
+                "Quality": "slavery"
+            },
+            {
+                "Quality": "South"
+            },
+            {
+                "Quality": "war"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "American history"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "hero"
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "Character": "Weary Slave, Banjo Song",
+        "Source": "Paul Laurence Dunbar poem, A Banjo Song",
+        "LinkImage": "WearySlave.jpg",
+        "Qualities": [
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "slavery"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "black"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "serenity"
+            },
+            {
+                "Quality": "sentimental"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "banjo"
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "Character": "Winston",
+        "Source": "1984, novel",
+        "LinkImage": "Winston.jpg",
+        "Qualities": [
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "assimilation"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "law"
+            },
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "Big Brother"
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "Character": "Gary Hobson",
+        "Source": "Early Edition, TV Show",
+        "LinkImage": "GaryHobson.jpg",
+        "Qualities": [
+            {
+                "Quality": "everyman"
+            },
+            {
+                "Quality": "Chicago"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "mystery"
+            },
+            {
+                "Quality": "mission"
+            },
+            {
+                "Quality": "hero"
+            },
+            {
+                "Quality": "future"
+            },
+            {
+                "Quality": "television"
+            },
+            {
+                "Quality": "newspaper"
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "Character": "Bolie Jackson",
+        "Source": "The Twilight Zone, TV Show",
+        "LinkImage": "BolieJackson.jpg",
+        "Qualities": [
+            {
+                "Quality": "sports"
+            },
+            {
+                "Quality": "dreams"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "win"
+            },
+            {
+                "Quality": "magic"
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "Character": "Aloysius T. McKeever",
+        "Source": "It Happened on Fifth Avenue, film",
+        "LinkImage": "AloysiusTMcKeever.jpg",
+        "Qualities": [
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "Christmas"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "home"
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "Character": "Chris Adams",
+        "Source": "The Magnificent Seven, film",
+        "LinkImage": "ChrisAdams.jpg",
+        "Qualities": [
+            {
+                "Quality": "law enforcement"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "protector"
+            },
+            {
+                "Quality": "wander"
+            },
+            {
+                "Quality": "small town"
+            },
+            {
+                "Quality": "crime"
+            },
+            {
+                "Quality": "mission"
+            },
+            {
+                "Quality": "hero"
+            },
+            {
+                "Quality": "gun"
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "Character": "Long John Willoughby",
+        "Source": "Meet John Doe, film",
+        "LinkImage": "LongJohnWilloughby.jpg",
+        "Qualities": [
+            {
+                "Quality": "neighbor"
+            },
+            {
+                "Quality": "Christmas"
+            },
+            {
+                "Quality": "everyman"
+            },
+            {
+                "Quality": "newspaper"
+            },
+            {
+                "Quality": "fame"
+            },
+            {
+                "Quality": "rebel"
+            },
+            {
+                "Quality": "sports"
+            },
+            {
+                "Quality": "human spirit"
+            },
+            {
+                "Quality": "movement"
+            },
+            {
+                "Quality": "speech"
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "Character": "Kazuko",
+        "Source": "The Setting Sun, novel",
+        "LinkImage": "Kazuko.jpg",
+        "Qualities": [
+            {
+                "Quality": "rich"
+            },
+            {
+                "Quality": "sick"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "East"
+            },
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "letters"
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "Character": "Olga Treskovna",
+        "Source": "The Miracle of the Bells, film",
+        "LinkImage": "OlgaTreskovna.jpg",
+        "Qualities": [
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "sick"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "fame"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "meager origins"
+            },
+            {
+                "Quality": "father"
+            },
+            {
+                "Quality": "bells"
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "Character": "Joey Crown",
+        "Source": "The Twilight Zone, TV show",
+        "LinkImage": "JoeyCrown.jpg",
+        "Qualities": [
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "alcohol"
+            },
+            {
+                "Quality": "music"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "finances"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "failure"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "trumpet"
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "Character": "Sun Bak",
+        "Source": "Sense8, TV show",
+        "LinkImage": "SunBak.jpg",
+        "Qualities": [
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "prison"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "revenge"
+            },
+            {
+                "Quality": "anger"
+            },
+            {
+                "Quality": "friendship"
+            },
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "East"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "martial arts"
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "Character": "Morph",
+        "Source": "X-Men: The Animated Series, TV show",
+        "LinkImage": "Morph.jpg",
+        "Qualities": [
+            {
+                "Quality": "hero"
+            },
+            {
+                "Quality": "fear"
+            },
+            {
+                "Quality": "fight"
+            },
+            {
+                "Quality": "prison"
+            },
+            {
+                "Quality": "superhuman"
+            },
+            {
+                "Quality": "bitter"
+            },
+            {
+                "Quality": "courage"
+            },
+            {
+                "Quality": "animated"
+            },
+            {
+                "Quality": "hospital"
+            },
+            {
+                "Quality": "shape-shifting"
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "Character": "Mariner",
+        "Source": "Lines Written Among the Euganean Hills, poem",
+        "LinkImage": "Mariner.jpg",
+        "Qualities": [
+            {
+                "Quality": "loneliness"
+            },
+            {
+                "Quality": "disaster"
+            },
+            {
+                "Quality": "love"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "death"
+            },
+            {
+                "Quality": "dream"
+            },
+            {
+                "Quality": "ship"
+            },
+            {
+                "Quality": "poetry"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "sea"
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "Character": "Desmond Hume",
+        "Source": "Lost, TV Show",
+        "LinkImage": "DesmondHume.jpg",
+        "Qualities": [
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "disaster"
+            },
+            {
+                "Quality": "love"
+            },
+            {
+                "Quality": "friend"
+            },
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "purposeless"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "monastery"
+            },
+            {
+                "Quality": "island"
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "Character": "Warehouse Worker",
+        "Source": "You Can't Go Home Again, novel",
+        "LinkImage": "WarehouseWorker.jpg",
+        "Qualities": [
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "uplifted"
+            },
+            {
+                "Quality": "nature"
+            },
+            {
+                "Quality": "things of this world"
+            },
+            {
+                "Quality": "serenity"
+            },
+            {
+                "Quality": "quiet"
+            },
+            {
+                "Quality": "New York"
+            },
+            {
+                "Quality": "sadness"
+            },
+            {
+                "Quality": "stranger"
+            },
+            {
+                "Quality": "face"
+            }
+        ]
+    },
+    {
+        "id": 115,
+        "Character": "Oscar de Le\u00f3n",
+        "Source": "The Brief and Wondrous Life of Oscar Wao, novel",
+        "LinkImage": "OscarDeLeon.jpg",
+        "Qualities": [
+            {
+                "Quality": "sci-fi"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "suicide"
+            },
+            {
+                "Quality": "young"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "depressed"
+            },
+            {
+                "Quality": "appearance"
+            },
+            {
+                "Quality": "brother"
+            },
+            {
+                "Quality": "nerd"
+            },
+            {
+                "Quality": "Dominican"
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "Character": "Mr. Gruffydd",
+        "Source": "How Green Was My Valley, film",
+        "LinkImage": "MrGruffydd.jpg",
+        "Qualities": [
+            {
+                "Quality": "Europe"
+            },
+            {
+                "Quality": "religion"
+            },
+            {
+                "Quality": "romance"
+            },
+            {
+                "Quality": "child"
+            },
+            {
+                "Quality": "faith"
+            },
+            {
+                "Quality": "poverty"
+            },
+            {
+                "Quality": "family"
+            },
+            {
+                "Quality": "dashed hope"
+            },
+            {
+                "Quality": "ambition"
+            },
+            {
+                "Quality": "preacher"
+            }
+        ]
+    }
+]

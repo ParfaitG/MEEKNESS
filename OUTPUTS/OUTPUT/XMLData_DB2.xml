@@ -1,0 +1,2072 @@
+<CHARACTERS>
+  <CHARACTER>
+    <ID>101</ID>
+    <NAME>Al Borland</NAME>
+    <SOURCE>Home Improvement, sitcom</SOURCE>
+    <LINKIMAGE>AlBorland.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">quiet </QUALITY>
+      <QUALITY special="0">mama's boy</QUALITY>
+      <QUALITY special="0">sentimental</QUALITY>
+      <QUALITY special="0">antics</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="0">tools</QUALITY>
+      <QUALITY special="0">sitcom</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="1">handyman</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>102</ID>
+    <NAME>Al Bundy</NAME>
+    <SOURCE>Married with Children, sitcom</SOURCE>
+    <LINKIMAGE>AlBundy.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sports</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="0">middle-aged</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">sitcom</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">high school</QUALITY>
+      <QUALITY special="1">shoes</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>103</ID>
+    <NAME>Alyosha</NAME>
+    <SOURCE>Brothers Karamazov, novel</SOURCE>
+    <LINKIMAGE>Alyosha.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">finances</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">funeral</QUALITY>
+      <QUALITY special="1">monastery</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>104</ID>
+    <NAME>Arthur Dimmesdale</NAME>
+    <SOURCE>The Scarlet Letter, novel</SOURCE>
+    <LINKIMAGE>ArthurDimmesdale.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sick</QUALITY>
+      <QUALITY special="0">preacher</QUALITY>
+      <QUALITY special="0">New England</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">immorality</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="1">reputation</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>105</ID>
+    <NAME>Athlete Dying Young</NAME>
+    <SOURCE>A.E. Housman poem</SOURCE>
+    <LINKIMAGE>AthleteDying.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sports</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">things of this world</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">running</QUALITY>
+      <QUALITY special="0">vanity</QUALITY>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="0">flower</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="1">track and field</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>106</ID>
+    <NAME>Barney Gumble</NAME>
+    <SOURCE>The Simpsons, sitcom</SOURCE>
+    <LINKIMAGE>Barney.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">middle-age</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="1">film</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>107</ID>
+    <NAME>Bartleby</NAME>
+    <SOURCE>Herman Melville short story</SOURCE>
+    <LINKIMAGE>Bartleby.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">mystery</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">low intelligence</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">novella</QUALITY>
+      <QUALITY special="1">preferences</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>108</ID>
+    <NAME>Belle</NAME>
+    <SOURCE>Beauty and the Beast, movie</SOURCE>
+    <LINKIMAGE>Belle.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="0">fantasy</QUALITY>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">flower</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">dance</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="1">reading</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>109</ID>
+    <NAME>Bernard</NAME>
+    <SOURCE>Death of a Salesman, play</SOURCE>
+    <LINKIMAGE>Bernard.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">theatrical play</QUALITY>
+      <QUALITY special="0">nerd</QUALITY>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="0">high school</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="1">studious</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>110</ID>
+    <NAME>Bigger Thomas</NAME>
+    <SOURCE>Native Son, novel</SOURCE>
+    <LINKIMAGE>BiggerThomas.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">ghetto</QUALITY>
+      <QUALITY special="0">uneducated</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">blind</QUALITY>
+      <QUALITY special="0">outcast</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="1">electric chair</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>111</ID>
+    <NAME>Billy Pilgrim</NAME>
+    <SOURCE>Slaughterhouse Five, novel</SOURCE>
+    <LINKIMAGE>BillyPilgrim.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">loss</QUALITY>
+      <QUALITY special="0">madness</QUALITY>
+      <QUALITY special="0">vanity</QUALITY>
+      <QUALITY special="1">time</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>112</ID>
+    <NAME>Bleeding Gums Murphy</NAME>
+    <SOURCE>The Simpsons, sitcom</SOURCE>
+    <LINKIMAGE>BleedingGums.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">fame</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">finances</QUALITY>
+      <QUALITY special="0">hospital</QUALITY>
+      <QUALITY special="1">jazz</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>113</ID>
+    <NAME>Bob Cratchit</NAME>
+    <SOURCE>A Christmas Carol, novella</SOURCE>
+    <LINKIMAGE>BobCratchit.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">Christmas</QUALITY>
+      <QUALITY special="0">obedient</QUALITY>
+      <QUALITY special="0">clerk</QUALITY>
+      <QUALITY special="0">winter</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">urban</QUALITY>
+      <QUALITY special="1">working class</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>114</ID>
+    <NAME>Brooks Hatlen</NAME>
+    <SOURCE>The Shawshank Redemption, movie</SOURCE>
+    <LINKIMAGE>BrooksHatlen.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">prison</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">old age</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">film</QUALITY>
+      <QUALITY special="0">freedom</QUALITY>
+      <QUALITY special="0">speed</QUALITY>
+      <QUALITY special="1">bird</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>115</ID>
+    <NAME>C. Green</NAME>
+    <SOURCE>Thomas Wolfe short story</SOURCE>
+    <LINKIMAGE>CGreen.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">short story</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">newspaper</QUALITY>
+      <QUALITY special="0">urban</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="1">manswarm atom</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>116</ID>
+    <NAME>C-3PO</NAME>
+    <SOURCE>Star Wars, movie</SOURCE>
+    <LINKIMAGE>C3PO.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">machine</QUALITY>
+      <QUALITY special="0">space</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">film</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="1">language</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>117</ID>
+    <NAME>Captain Ahab</NAME>
+    <SOURCE>Moby Dick, novel</SOURCE>
+    <LINKIMAGE>CaptainAhab.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sea</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">old age</QUALITY>
+      <QUALITY special="0">madness</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="1">white whale</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>118</ID>
+    <NAME>Captain Willard</NAME>
+    <SOURCE>Apocalypse Now, movie</SOURCE>
+    <LINKIMAGE>CaptainWillard.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">unsure</QUALITY>
+      <QUALITY special="0">madness</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">thoughts</QUALITY>
+      <QUALITY special="0">gun</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="1">jungle</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>119</ID>
+    <NAME>Carlton Banks</NAME>
+    <SOURCE>Fresh Prince of Bel-Air, sitcom</SOURCE>
+    <LINKIMAGE>CarltonBanks.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">dance</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">attorney</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">antics</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="1">preppy</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>120</ID>
+    <NAME>Cash Bundren</NAME>
+    <SOURCE>As I Lay Dying, novel</SOURCE>
+    <LINKIMAGE>CashBundren.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">journey</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="0">brother </QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">rural</QUALITY>
+      <QUALITY special="0">tools</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="1">carpenter</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>121</ID>
+    <NAME>Charles Foster Kane</NAME>
+    <SOURCE>Citizen Kane, movie</SOURCE>
+    <LINKIMAGE>CharlesKane.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">meager origins</QUALITY>
+      <QUALITY special="0">newspaper</QUALITY>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="1">rosebud sled</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>122</ID>
+    <NAME>Charley Parks</NAME>
+    <SOURCE>Twilight Zone, tv show</SOURCE>
+    <LINKIMAGE>CharleyParks.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">toy</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">hospital</QUALITY>
+      <QUALITY special="0">madness</QUALITY>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">freedom</QUALITY>
+      <QUALITY special="0">mystery</QUALITY>
+      <QUALITY special="1">museum</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>123</ID>
+    <NAME>Charlie Bucket</NAME>
+    <SOURCE>Willy Wonka and the Chocolate Factory, movie</SOURCE>
+    <LINKIMAGE>CharlieBucket.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">fantasy</QUALITY>
+      <QUALITY special="0">chocolate</QUALITY>
+      <QUALITY special="0">newspaper</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">film</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="1">golden ticket</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>124</ID>
+    <NAME>Charlie Gordon</NAME>
+    <SOURCE>Flowers for Algernon, novel</SOURCE>
+    <LINKIMAGE>CharlieGordon.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">low intelligence</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">confidence</QUALITY>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">hospital</QUALITY>
+      <QUALITY special="0">unsure</QUALITY>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="1">mouse</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>125</ID>
+    <NAME>Clarisse McClellan</NAME>
+    <SOURCE>Fahrenheit 451, novel</SOURCE>
+    <LINKIMAGE>ClarisseMcClellan.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="0">nature</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">human moment</QUALITY>
+      <QUALITY special="1">speed</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>126</ID>
+    <NAME>Daredevil</NAME>
+    <SOURCE>Spiderman, tv animated series</SOURCE>
+    <LINKIMAGE>Daredevil.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">blind</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="1">radar sight</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>127</ID>
+    <NAME>Data</NAME>
+    <SOURCE>Star Trek: The Next Generation, tv show</SOURCE>
+    <LINKIMAGE>Data.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">machine</QUALITY>
+      <QUALITY special="0">space</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">television</QUALITY>
+      <QUALITY special="1">emotion</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>128</ID>
+    <NAME>Denver</NAME>
+    <SOURCE>Beloved, novel</SOURCE>
+    <LINKIMAGE>Denver.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">slavery</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">freedom</QUALITY>
+      <QUALITY special="0">immorality</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="1">124 home</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>129</ID>
+    <NAME>Dorothy</NAME>
+    <SOURCE>Wizard of Oz, movie</SOURCE>
+    <LINKIMAGE>DorothyGale.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">fantasy</QUALITY>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">rural</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">sentimental</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="1">Kansas</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>130</ID>
+    <NAME>Edmund Tyrone</NAME>
+    <SOURCE>Long Day's Journey into Night, play</SOURCE>
+    <LINKIMAGE>EdmundTyrone.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sea</QUALITY>
+      <QUALITY special="0">sick</QUALITY>
+      <QUALITY special="0">intellectual</QUALITY>
+      <QUALITY special="0">brother </QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">newspaper</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="1">fog</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>131</ID>
+    <NAME>Edna Pontellier</NAME>
+    <SOURCE>The Awakening, novel</SOURCE>
+    <LINKIMAGE>EdnaPontellier.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">vacation</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">sea</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="1">painting</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>132</ID>
+    <NAME>Elizabeth Bates</NAME>
+    <SOURCE>D.H. Lawrence short story</SOURCE>
+    <LINKIMAGE>ElizabethBates.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">flower</QUALITY>
+      <QUALITY special="0">house chores</QUALITY>
+      <QUALITY special="0">short story</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="1">coal mining</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>133</ID>
+    <NAME>Emily Grierson</NAME>
+    <SOURCE>William Faulkner short story</SOURCE>
+    <LINKIMAGE>EmilyGrierson.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">painting</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">mystery</QUALITY>
+      <QUALITY special="0">outcast</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="1">necrophiliac</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>134</ID>
+    <NAME>Emily Webb</NAME>
+    <SOURCE>Our Town, play</SOURCE>
+    <LINKIMAGE>EmilyWebb.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">New England</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">vision</QUALITY>
+      <QUALITY special="0">things of this world</QUALITY>
+      <QUALITY special="0">afterlife</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">human moment</QUALITY>
+      <QUALITY special="1">earth too beautiful</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>135</ID>
+    <NAME>Emmeline Grangerford</NAME>
+    <SOURCE>The Adventures of Huckleberry Finn, novel</SOURCE>
+    <LINKIMAGE>Emmeline.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">sick</QUALITY>
+      <QUALITY special="0">wearing black</QUALITY>
+      <QUALITY special="0">mystery</QUALITY>
+      <QUALITY special="0">painting</QUALITY>
+      <QUALITY special="1">elegies</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>136</ID>
+    <NAME>Forrest Gump</NAME>
+    <SOURCE>Forrest Gump, movie</SOURCE>
+    <LINKIMAGE>ForrestGump.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">low intelligence</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">running</QUALITY>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">mama's boy</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">sports</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="0">bus</QUALITY>
+      <QUALITY special="1">American history</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>137</ID>
+    <NAME>Frankenstein monster</NAME>
+    <SOURCE>Frankenstein, novel</SOURCE>
+    <LINKIMAGE>FrankensteinMonster.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">nature</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">large</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">appearance</QUALITY>
+      <QUALITY special="1">monster</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>138</ID>
+    <NAME>Fredo Corleone</NAME>
+    <SOURCE>The Godfather, movie</SOURCE>
+    <LINKIMAGE>FredoCorleone.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">obedient</QUALITY>
+      <QUALITY special="0">confidence</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="1">underboss</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>139</ID>
+    <NAME>Gart Williams</NAME>
+    <SOURCE>Twilight Zone, tv show</SOURCE>
+    <LINKIMAGE>GartWilliams.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">nature</QUALITY>
+      <QUALITY special="0">serenity</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">jobs</QUALITY>
+      <QUALITY special="0">reputation</QUALITY>
+      <QUALITY special="1">advertisement agency</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>140</ID>
+    <NAME>Gerty MacDowell</NAME>
+    <SOURCE>Ulysses, novel</SOURCE>
+    <LINKIMAGE>GertyMacDowell.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="0">sentimental</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">beauty</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">wearing black</QUALITY>
+      <QUALITY special="0">Modernism</QUALITY>
+      <QUALITY special="1">feminine wiles</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>141</ID>
+    <NAME>Girl, Monsieur Verdoux</NAME>
+    <SOURCE>Monsieur Verdoux, movie</SOURCE>
+    <LINKIMAGE>GirlMonsieurVerdoux.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">prison</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="1">poison</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>142</ID>
+    <NAME>H.E.R.</NAME>
+    <SOURCE>Common rap song</SOURCE>
+    <LINKIMAGE>HER.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">ghetto</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">urban</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">California</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="1">commercialization</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>143</ID>
+    <NAME>Hamlet</NAME>
+    <SOURCE>Hamlet, play</SOURCE>
+    <LINKIMAGE>Hamlet.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">intellectual</QUALITY>
+      <QUALITY special="0">vanity</QUALITY>
+      <QUALITY special="0">wearing black</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="1">prince</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>144</ID>
+    <NAME>Hannah</NAME>
+    <SOURCE>The Great Dictator, movie</SOURCE>
+    <LINKIMAGE>Hannah.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">ghetto</QUALITY>
+      <QUALITY special="0">rural</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="1">Jewish persecution</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>145</ID>
+    <NAME>Henry Corwin</NAME>
+    <SOURCE>Twilight Zone, tv show</SOURCE>
+    <LINKIMAGE>HenryCorwin.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">Christmas</QUALITY>
+      <QUALITY special="0">television</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">middle-aged</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="1">mall</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>146</ID>
+    <NAME>Hester Prynne</NAME>
+    <SOURCE>The Scarlet Letter, novel</SOURCE>
+    <LINKIMAGE>HesterPrynne.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">New England</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">freedom</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">outcast</QUALITY>
+      <QUALITY special="0">immorality</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="1">scaffold</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>147</ID>
+    <NAME>Holden Caufield</NAME>
+    <SOURCE>Catcher in the Rye, novel</SOURCE>
+    <LINKIMAGE>HoldenCaufield.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">hospital</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">high school</QUALITY>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="1">catcher mitt</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>148</ID>
+    <NAME>Humboldt</NAME>
+    <SOURCE>Humboldt's Gift, novel</SOURCE>
+    <LINKIMAGE>Humboldt.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">old age</QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">finances</QUALITY>
+      <QUALITY special="0">newspaper</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">intellectual</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="1">culture commodification</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>149</ID>
+    <NAME>J. Alfred Prufrock</NAME>
+    <SOURCE>T.S. Eliot poem</SOURCE>
+    <LINKIMAGE>JAlfredPrufrock.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">middle-aged</QUALITY>
+      <QUALITY special="0">unsure</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">inadequacy</QUALITY>
+      <QUALITY special="0">confidence</QUALITY>
+      <QUALITY special="0">urban</QUALITY>
+      <QUALITY special="0">Modernism</QUALITY>
+      <QUALITY special="0">intellectual</QUALITY>
+      <QUALITY special="0">sea</QUALITY>
+      <QUALITY special="1">20th century urban zeitgeist</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>150</ID>
+    <NAME>James Evans</NAME>
+    <SOURCE>Good Times, sitcom</SOURCE>
+    <LINKIMAGE>JamesEvans.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">ghetto</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">jobs</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">sitcom</QUALITY>
+      <QUALITY special="1">1970s</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>151</ID>
+    <NAME>Jay Gatsby</NAME>
+    <SOURCE>The Great Gatsby, novel</SOURCE>
+    <LINKIMAGE>JayGatsby.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">accident</QUALITY>
+      <QUALITY special="0">meager origins</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="1">1920s</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>152</ID>
+    <NAME>Jerry Renault</NAME>
+    <SOURCE>The Chocolate War, novel</SOURCE>
+    <LINKIMAGE>JerryRenault.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">against odds</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">New England</QUALITY>
+      <QUALITY special="1">chocolate</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>153</ID>
+    <NAME>Jim Casey</NAME>
+    <SOURCE>The Grapes of Wrath, novel</SOURCE>
+    <LINKIMAGE>JimCasey.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">journey</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">rural</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">California</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="1">preacher</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>154</ID>
+    <NAME>Jim of Huck Finn</NAME>
+    <SOURCE>The Adventure of Huckleberry Finn, novel</SOURCE>
+    <LINKIMAGE>JimHuckFinn.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">slavery</QUALITY>
+      <QUALITY special="0">journey</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">rural</QUALITY>
+      <QUALITY special="0">uneducated</QUALITY>
+      <QUALITY special="1">freedom</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>155</ID>
+    <NAME>Joan Clayton</NAME>
+    <SOURCE>Girlfriends, sitcom</SOURCE>
+    <LINKIMAGE>JoanClayton.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">success</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">California</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="1">den mother</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>156</ID>
+    <NAME>Job</NAME>
+    <SOURCE>The Bible</SOURCE>
+    <LINKIMAGE>Job.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="0">things of this world</QUALITY>
+      <QUALITY special="0">sick</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">vanity</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="1">talks to God</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>157</ID>
+    <NAME>John Coffey</NAME>
+    <SOURCE>The Green Mile, movie</SOURCE>
+    <LINKIMAGE>JohnCoffey.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">prison</QUALITY>
+      <QUALITY special="0">electric chair</QUALITY>
+      <QUALITY special="0">uneducated</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">film</QUALITY>
+      <QUALITY special="0">large</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="1">healing</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>158</ID>
+    <NAME>Jurgis</NAME>
+    <SOURCE>The Jungle, novel</SOURCE>
+    <LINKIMAGE>Jurgis.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">foreign</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">past</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="1">immigrant oppression</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>159</ID>
+    <NAME>Kattrin</NAME>
+    <SOURCE>Mother Courage, play</SOURCE>
+    <LINKIMAGE>Kattrin.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">mute</QUALITY>
+      <QUALITY special="0">journey</QUALITY>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">theatrical play</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="1">cart</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>160</ID>
+    <NAME>Laura Wingfield</NAME>
+    <SOURCE>The Glass Menagerie, play</SOURCE>
+    <LINKIMAGE>LauraWingfield.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">toy</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">beauty</QUALITY>
+      <QUALITY special="0">high school</QUALITY>
+      <QUALITY special="1">blue roses</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>161</ID>
+    <NAME>Lennie</NAME>
+    <SOURCE>Of Mice and Men, novella</SOURCE>
+    <LINKIMAGE>Lennie.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">low intelligence</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">journey</QUALITY>
+      <QUALITY special="0">jobs</QUALITY>
+      <QUALITY special="0">novella</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">large</QUALITY>
+      <QUALITY special="0">rural</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="1">rabbit</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>162</ID>
+    <NAME>Lucynell Crater</NAME>
+    <SOURCE>Flannery O'Connor short story</SOURCE>
+    <LINKIMAGE>LucynellCrater.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">mute</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="0">low intelligence</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">house chores</QUALITY>
+      <QUALITY special="0">short story</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">beauty</QUALITY>
+      <QUALITY special="0">handyman</QUALITY>
+      <QUALITY special="1">Angel of God</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>163</ID>
+    <NAME>Maggie Fitzgerald</NAME>
+    <SOURCE>Million Dollar Baby, movie</SOURCE>
+    <LINKIMAGE>MaggieFitzgerald.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sports</QUALITY>
+      <QUALITY special="0">accident</QUALITY>
+      <QUALITY special="0">hospital</QUALITY>
+      <QUALITY special="0">fame</QUALITY>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">dog</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="1">boxing</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>164</ID>
+    <NAME>Marilyn Cuberle</NAME>
+    <SOURCE>Twilight Zone, tv show</SOURCE>
+    <LINKIMAGE>MarilynCuberle.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">assimilation</QUALITY>
+      <QUALITY special="0">beauty</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">reading</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="1">individuality</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>165</ID>
+    <NAME>Marshall Will Kane</NAME>
+    <SOURCE>High Noon, movie</SOURCE>
+    <LINKIMAGE>MarshallKane.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">gun</QUALITY>
+      <QUALITY special="0">film</QUALITY>
+      <QUALITY special="0">against odds</QUALITY>
+      <QUALITY special="1">Wild West</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>166</ID>
+    <NAME>Mother in Black Christ</NAME>
+    <SOURCE>Countee Cullen poem, The Black Christ</SOURCE>
+    <LINKIMAGE>MotherBlackChrist.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">old age</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">house chores</QUALITY>
+      <QUALITY special="1">Job's darker sister</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>167</ID>
+    <NAME>Mr. Freeze</NAME>
+    <SOURCE>Batman, tv animated series</SOURCE>
+    <LINKIMAGE>MrFreeze.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">accident</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">toy</QUALITY>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="1">music box</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>168</ID>
+    <NAME>Mr. Smith</NAME>
+    <SOURCE>Mr. Smith Goes to Washington, movie</SOURCE>
+    <LINKIMAGE>MrSmith.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">against odds</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="1">lost causes</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>169</ID>
+    <NAME>Mr. Spock</NAME>
+    <SOURCE>Star Trek: Original Series, tv show</SOURCE>
+    <LINKIMAGE>MrSpock.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="0">space</QUALITY>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">television</QUALITY>
+      <QUALITY special="1">logic</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>170</ID>
+    <NAME>Mrs. Ramsay</NAME>
+    <SOURCE>To the Lighthouse, novel</SOURCE>
+    <LINKIMAGE>MrsRamsay.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">vacation</QUALITY>
+      <QUALITY special="0">middle-aged</QUALITY>
+      <QUALITY special="0">Modernism</QUALITY>
+      <QUALITY special="0">thoughts</QUALITY>
+      <QUALITY special="0">intellectual</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="1">hostess</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>171</ID>
+    <NAME>Fox Mulder</NAME>
+    <SOURCE>X-Files, tv show</SOURCE>
+    <LINKIMAGE>FoxMulder.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">gun</QUALITY>
+      <QUALITY special="0">partner</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="1">truth</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>172</ID>
+    <NAME>Musician, Weary Blues</NAME>
+    <SOURCE>Langston Hughes poem, The Weary Blues</SOURCE>
+    <LINKIMAGE>MusicianWearyBlues.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">sentimental</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="0">thoughts</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="1">blues</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>173</ID>
+    <NAME>Newman</NAME>
+    <SOURCE>Seinfeld, sitcom</SOURCE>
+    <LINKIMAGE>Newman.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">neighbor</QUALITY>
+      <QUALITY special="0">madness</QUALITY>
+      <QUALITY special="0">antics</QUALITY>
+      <QUALITY special="0">sitcom</QUALITY>
+      <QUALITY special="1">postal worker</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>174</ID>
+    <NAME>Obscure Youth</NAME>
+    <SOURCE>Walt Whitman poem, Ambition</SOURCE>
+    <LINKIMAGE>ObscureYouth.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">fame</QUALITY>
+      <QUALITY special="0">vanity</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="1">oblivion</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>175</ID>
+    <NAME>Perth</NAME>
+    <SOURCE>Moby Dick, novel</SOURCE>
+    <LINKIMAGE>Perth.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sea</QUALITY>
+      <QUALITY special="0">quiet </QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">wife</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="1">blacksmith</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>176</ID>
+    <NAME>Quasimodo</NAME>
+    <SOURCE>The Hunchback of Notre Dame, novel</SOURCE>
+    <LINKIMAGE>Quasimodo.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">monster</QUALITY>
+      <QUALITY special="0">unrequited love</QUALITY>
+      <QUALITY special="0">low intelligence</QUALITY>
+      <QUALITY special="0">outcast</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="1">bell tower</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>177</ID>
+    <NAME>Waiting Man</NAME>
+    <SOURCE>Alan Seeger poem, Rendezvous</SOURCE>
+    <LINKIMAGE>WaitingMan.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">waiting</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">flower</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="1">unrequited love</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>178</ID>
+    <NAME>Robert Barone</NAME>
+    <SOURCE>Everybody Loves Raymond, sitcom</SOURCE>
+    <LINKIMAGE>RobertBarone.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">dance</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">large</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="1">crazy chin</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>179</ID>
+    <NAME>Rogue</NAME>
+    <SOURCE>X-Men, tv animated series</SOURCE>
+    <LINKIMAGE>Rogue.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="0">innocence</QUALITY>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="1">touch</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>180</ID>
+    <NAME>Roz Doyle</NAME>
+    <SOURCE>Frasier, sitcom</SOURCE>
+    <LINKIMAGE>RozDoyle.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">middle-age</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">sitcom</QUALITY>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="1">radio</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>181</ID>
+    <NAME>Ruth Younger</NAME>
+    <SOURCE>A Raisin in the Sun, play</SOURCE>
+    <LINKIMAGE>RuthYounger.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">mother</QUALITY>
+      <QUALITY special="0">baby </QUALITY>
+      <QUALITY special="0">bitter </QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">house chores</QUALITY>
+      <QUALITY special="0">finances</QUALITY>
+      <QUALITY special="0">theatrical play</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="1">worn out wife</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>182</ID>
+    <NAME>Santiago</NAME>
+    <SOURCE>The Old Man and the Sea, novella</SOURCE>
+    <LINKIMAGE>Santiago.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">old age</QUALITY>
+      <QUALITY special="0">sea</QUALITY>
+      <QUALITY special="0">waiting</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">foreign</QUALITY>
+      <QUALITY special="0">novella</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="1">marlin</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>183</ID>
+    <NAME>Seven of Nine</NAME>
+    <SOURCE>Star Trek: Voyager, tv show</SOURCE>
+    <LINKIMAGE>SevenOfNine.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">machine</QUALITY>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">space</QUALITY>
+      <QUALITY special="0">television</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">individuality</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="1">assimilation</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>184</ID>
+    <NAME>Silver Surfer</NAME>
+    <SOURCE>Fantastic Four, tv animated series</SOURCE>
+    <LINKIMAGE>SilverSurfer.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">alien</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">good vs evil</QUALITY>
+      <QUALITY special="0">prison</QUALITY>
+      <QUALITY special="0">space</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="1">surf board</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>185</ID>
+    <NAME>Soap Opera Girl</NAME>
+    <SOURCE>Waking Life, movie</SOURCE>
+    <LINKIMAGE>SoapOperaGirl.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="0">politeness</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">train</QUALITY>
+      <QUALITY special="0">film</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="0">thoughts</QUALITY>
+      <QUALITY special="1">human moments</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>186</ID>
+    <NAME>Soldier Boy</NAME>
+    <SOURCE>Siegfried Sassoon poem</SOURCE>
+    <LINKIMAGE>SoldierBoy.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">gun</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="1">trenches</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>187</ID>
+    <NAME>Speaker, A Winter Piece</NAME>
+    <SOURCE>William Cullen Bryant poem, A Winter Piece</SOURCE>
+    <LINKIMAGE>SpeakerWinterPiece.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">nature</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">things of this world</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">serenity</QUALITY>
+      <QUALITY special="0">vanity</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="1">winter</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>188</ID>
+    <NAME>Speaker, The Suicide</NAME>
+    <SOURCE>Edna St. Vincent Millay poem, The Suicide</SOURCE>
+    <LINKIMAGE>SpeakerTheSuicide.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">serenity</QUALITY>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">afterlife</QUALITY>
+      <QUALITY special="1">childhood house</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>189</ID>
+    <NAME>Spiderman</NAME>
+    <SOURCE>Spiderman, tv animated series</SOURCE>
+    <LINKIMAGE>Spiderman.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">nerd</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="0">confidence</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="1">responsibility</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>190</ID>
+    <NAME>Steve Urkel</NAME>
+    <SOURCE>Family Matters, sitcom</SOURCE>
+    <LINKIMAGE>SteveUrkel.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">nerd</QUALITY>
+      <QUALITY special="0">neighbor</QUALITY>
+      <QUALITY special="0">confidence</QUALITY>
+      <QUALITY special="0">giving to others</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="1">clumsy</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>191</ID>
+    <NAME>The Terminator</NAME>
+    <SOURCE>Terminator 2, movie</SOURCE>
+    <LINKIMAGE>TheTerminator.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">learning</QUALITY>
+      <QUALITY special="0">machine</QUALITY>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">gun</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">sacrifice</QUALITY>
+      <QUALITY special="0">obedient</QUALITY>
+      <QUALITY special="1">protector</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>192</ID>
+    <NAME>The Thing</NAME>
+    <SOURCE>Fantastic Four, tv animated series</SOURCE>
+    <LINKIMAGE>TheThing.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">blind</QUALITY>
+      <QUALITY special="0">space</QUALITY>
+      <QUALITY special="0">accident</QUALITY>
+      <QUALITY special="0">good vs. evil</QUALITY>
+      <QUALITY special="0">loss</QUALITY>
+      <QUALITY special="0">appearance</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">pilot</QUALITY>
+      <QUALITY special="1">rocky skin</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>193</ID>
+    <NAME>The Tramp</NAME>
+    <SOURCE>Charlie Chaplin silent movies</SOURCE>
+    <LINKIMAGE>TheTramp.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">mute</QUALITY>
+      <QUALITY special="0">past</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">politeness</QUALITY>
+      <QUALITY special="0">antics</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="1">genteelism</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>194</ID>
+    <NAME>Thereza Ambrose</NAME>
+    <SOURCE>Limelight, movie</SOURCE>
+    <LINKIMAGE>TherezaAmbrose.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">partner</QUALITY>
+      <QUALITY special="0">confidence</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">entertainment</QUALITY>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="1">dance</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>195</ID>
+    <NAME>Tiny Tim</NAME>
+    <SOURCE>A Christmas Carol, novella</SOURCE>
+    <LINKIMAGE>TinyTim.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">Christmas</QUALITY>
+      <QUALITY special="0">lame</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">urban</QUALITY>
+      <QUALITY special="0">novella</QUALITY>
+      <QUALITY special="1">blessings</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>196</ID>
+    <NAME>Tod Clifton</NAME>
+    <SOURCE>Invisible Man, novel</SOURCE>
+    <LINKIMAGE>TodClifton.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">politics</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">speaker</QUALITY>
+      <QUALITY special="0">gun</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">high intelligence</QUALITY>
+      <QUALITY special="1">Brotherhood</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>197</ID>
+    <NAME>Tommy Wilhelm</NAME>
+    <SOURCE>Saul Bellow short story</SOURCE>
+    <LINKIMAGE>TommyWilhelm.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">father </QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">city worker</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">novella</QUALITY>
+      <QUALITY special="0">finances</QUALITY>
+      <QUALITY special="0">thoughts</QUALITY>
+      <QUALITY special="0">jobs</QUALITY>
+      <QUALITY special="1">funeral</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>198</ID>
+    <NAME>Trip</NAME>
+    <SOURCE>Glory, movie</SOURCE>
+    <LINKIMAGE>Trip.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">slavery</QUALITY>
+      <QUALITY special="0">South</QUALITY>
+      <QUALITY special="0">war</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">American history</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="1">hero</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>199</ID>
+    <NAME>Weary Slave, Banjo Song</NAME>
+    <SOURCE>Paul Laurence Dunbar poem, A Banjo Song</SOURCE>
+    <LINKIMAGE>WearySlave.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">slavery</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">black</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">serenity</QUALITY>
+      <QUALITY special="0">sentimental</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="1">banjo</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>200</ID>
+    <NAME>Winston</NAME>
+    <SOURCE>1984, novel</SOURCE>
+    <LINKIMAGE>Winston.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">assimilation</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">law</QUALITY>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="1">Big Brother</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>201</ID>
+    <NAME>Gary Hobson</NAME>
+    <SOURCE>Early Edition, TV Show</SOURCE>
+    <LINKIMAGE>GaryHobson.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">everyman</QUALITY>
+      <QUALITY special="0">Chicago</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">mystery</QUALITY>
+      <QUALITY special="0">mission</QUALITY>
+      <QUALITY special="0">hero</QUALITY>
+      <QUALITY special="0">future</QUALITY>
+      <QUALITY special="0">television</QUALITY>
+      <QUALITY special="1">newspaper</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>221</ID>
+    <NAME>Bolie Jackson</NAME>
+    <SOURCE>The Twilight Zone, TV Show</SOURCE>
+    <LINKIMAGE>BolieJackson.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sports</QUALITY>
+      <QUALITY special="0">dreams</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">win</QUALITY>
+      <QUALITY special="1">magic</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>301</ID>
+    <NAME>Aloysius T. McKeever</NAME>
+    <SOURCE>It Happened on Fifth Avenue, film</SOURCE>
+    <LINKIMAGE>AloysiusTMcKeever.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">Christmas</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="1">home</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>321</ID>
+    <NAME>Chris Adams</NAME>
+    <SOURCE>The Magnificent Seven, film</SOURCE>
+    <LINKIMAGE>ChrisAdams.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">law enforcement</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">protector</QUALITY>
+      <QUALITY special="0">wander</QUALITY>
+      <QUALITY special="0">small town</QUALITY>
+      <QUALITY special="0">crime</QUALITY>
+      <QUALITY special="0">mission</QUALITY>
+      <QUALITY special="0">hero</QUALITY>
+      <QUALITY special="1">gun</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>341</ID>
+    <NAME>Long John Willoughby</NAME>
+    <SOURCE>Meet John Doe, film</SOURCE>
+    <LINKIMAGE>LongJohnWilloughby.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">neighbor</QUALITY>
+      <QUALITY special="0">Christmas</QUALITY>
+      <QUALITY special="0">everyman</QUALITY>
+      <QUALITY special="0">newspaper</QUALITY>
+      <QUALITY special="0">fame</QUALITY>
+      <QUALITY special="0">rebel</QUALITY>
+      <QUALITY special="0">sports</QUALITY>
+      <QUALITY special="0">human spirit</QUALITY>
+      <QUALITY special="0">movement</QUALITY>
+      <QUALITY special="1">speech</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>361</ID>
+    <NAME>Kazuko</NAME>
+    <SOURCE>The Setting Sun, novel</SOURCE>
+    <LINKIMAGE>Kazuko.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">rich</QUALITY>
+      <QUALITY special="0">sick</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">East</QUALITY>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="1">letters</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>362</ID>
+    <NAME>Olga Treskovna</NAME>
+    <SOURCE>The Miracle of the Bells, film</SOURCE>
+    <LINKIMAGE>OlgaTreskovna.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="0">sick</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">fame</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">meager origins</QUALITY>
+      <QUALITY special="0">father</QUALITY>
+      <QUALITY special="1">bells</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>363</ID>
+    <NAME>Joey Crown</NAME>
+    <SOURCE>The Twilight Zone, TV show</SOURCE>
+    <LINKIMAGE>JoeyCrown.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">alcohol</QUALITY>
+      <QUALITY special="0">music</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="0">finances</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">failure</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="1">trumpet</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>364</ID>
+    <NAME>Sun Bak</NAME>
+    <SOURCE>Sense8, TV show</SOURCE>
+    <LINKIMAGE>SunBak.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">prison</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">revenge</QUALITY>
+      <QUALITY special="0">anger</QUALITY>
+      <QUALITY special="0">friendship</QUALITY>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">East</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="1">martial arts</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>365</ID>
+    <NAME>Mariner</NAME>
+    <SOURCE>Lines Written Among the Euganean Hills, poem</SOURCE>
+    <LINKIMAGE>Mariner.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">loneliness</QUALITY>
+      <QUALITY special="0">disaster</QUALITY>
+      <QUALITY special="0">love</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">death</QUALITY>
+      <QUALITY special="0">dream</QUALITY>
+      <QUALITY special="0">ship</QUALITY>
+      <QUALITY special="0">poetry</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="1">sea</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>366</ID>
+    <NAME>Desmond Hume</NAME>
+    <SOURCE>Lost, TV Show</SOURCE>
+    <LINKIMAGE>DesmondHume.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">disaster</QUALITY>
+      <QUALITY special="0">love</QUALITY>
+      <QUALITY special="0">friend</QUALITY>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">purposeless</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="0">monastery</QUALITY>
+      <QUALITY special="1">island</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>367</ID>
+    <NAME>Warehouse Worker</NAME>
+    <SOURCE>You Can't Go Home Again, novel</SOURCE>
+    <LINKIMAGE>WarehouseWorker.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">uplifted</QUALITY>
+      <QUALITY special="0">nature</QUALITY>
+      <QUALITY special="0">things of this world</QUALITY>
+      <QUALITY special="0">serenity</QUALITY>
+      <QUALITY special="0">quiet</QUALITY>
+      <QUALITY special="0">New York</QUALITY>
+      <QUALITY special="0">sadness</QUALITY>
+      <QUALITY special="0">stranger</QUALITY>
+      <QUALITY special="1">face</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>368</ID>
+    <NAME>Oscar de Le&#243;n</NAME>
+    <SOURCE>The Brief and Wondrous Life of Oscar Wao, novel</SOURCE>
+    <LINKIMAGE>OscarDeLeon.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">sci-fi</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">suicide</QUALITY>
+      <QUALITY special="0">young</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">depressed</QUALITY>
+      <QUALITY special="0">appearance</QUALITY>
+      <QUALITY special="0">brother</QUALITY>
+      <QUALITY special="0">nerd</QUALITY>
+      <QUALITY special="1">Dominican</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>369</ID>
+    <NAME>Mr. Gruffydd</NAME>
+    <SOURCE>How Green Was My Valley, film</SOURCE>
+    <LINKIMAGE>MrGruffydd.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">Europe</QUALITY>
+      <QUALITY special="0">religion</QUALITY>
+      <QUALITY special="0">romance</QUALITY>
+      <QUALITY special="0">child</QUALITY>
+      <QUALITY special="0">faith</QUALITY>
+      <QUALITY special="0">poverty</QUALITY>
+      <QUALITY special="0">family</QUALITY>
+      <QUALITY special="0">dashed hope</QUALITY>
+      <QUALITY special="0">ambition</QUALITY>
+      <QUALITY special="1">preacher</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+  <CHARACTER>
+    <ID>381</ID>
+    <NAME>Morph</NAME>
+    <SOURCE>X-Men: The Animated Series, TV show</SOURCE>
+    <LINKIMAGE>Morph.jpg</LINKIMAGE>
+    <QUALITIES>
+      <QUALITY special="0">hero</QUALITY>
+      <QUALITY special="0">fear</QUALITY>
+      <QUALITY special="0">fight</QUALITY>
+      <QUALITY special="0">prison</QUALITY>
+      <QUALITY special="0">superhuman</QUALITY>
+      <QUALITY special="0">bitter</QUALITY>
+      <QUALITY special="0">courage</QUALITY>
+      <QUALITY special="0">animated</QUALITY>
+      <QUALITY special="0">hospital</QUALITY>
+      <QUALITY special="1">shape-shifting</QUALITY>
+    </QUALITIES>
+  </CHARACTER>
+</CHARACTERS>
