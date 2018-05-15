@@ -1,14 +1,15 @@
 options(connectionObserver = NULL)
 
-library(RPostgreSQL)
-library(gWidgets2)
-library(gWidgets2tcltk)
+library(RPostgreSQL, quietly = TRUE)
+library(gWidgets2, quietly = TRUE)
+library(gWidgets2tcltk, quietly = TRUE)
+options(guiToolkit="tcltk")
 
-setwd("/path/to/Working/Directory")
+setwd("/path/to/working/directory")
 
 
 getList <- function(){
-  conn <- dbConnect(RPostgreSQL::PostgreSQL(), host="*****", dbname="***",
+  conn <- dbConnect(RPostgreSQL::PostgreSQL(), host="*****", dbname="*****",
                     user="***", password="***", port=5432)
   
   strSQL <- paste("SELECT c.ID, c.Character",
@@ -23,7 +24,7 @@ getList <- function(){
 
 
 getCharData <- function(conn, param){
-  strSQL <- paste("SELECT c.Character, c.Description, HEX(c.Picture) AS PicData",
+  strSQL <- paste("SELECT c.Character, c.Description, encode(c.Picture::bytea, 'hex') AS PicData",
                   "FROM Characters c",
                   "WHERE c.Character = ?CHAR")
   
@@ -93,7 +94,7 @@ gtmBlobHexStrToRaw <- function(hexStr) {
 mainWindow <- function(times=1, charnum='Boy in The Carrot Seed'){
   
   # TOP OF WINDOW
-  win <- gWidgets2::gwindow("Meekness Characters", height = 850, width = 400)
+  win <- gWidgets2::gwindow("Meekness Characters", height = 850, width = 400, toolkit = guiToolkit())
   
   tbl <- glayout(cont=win, spacing = 5, expand=TRUE)
   
@@ -114,8 +115,8 @@ mainWindow <- function(times=1, charnum='Boy in The Carrot Seed'){
   # POPULATE DATA
   runData <- function(charnum) {
     
-    conn <- dbConnect(RPostgreSQL::PostgreSQL(), host="*****", dbname="***",
-                      user="***", password="***", port=5432)
+    conn <- dbConnect(RPostgreSQL::PostgreSQL(), host="10.0.0.220", dbname="meekness",
+                      user="meekdba", password="poet17", port=5432)
     
     # CHARACTER IMAGE
     charData <- getCharData(conn, charnum)
@@ -163,8 +164,10 @@ mainWindow <- function(times=1, charnum='Boy in The Carrot Seed'){
   addHandlerChanged(charcbo, handler=function(...)  {
     runData(charnum=svalue(charcbo))
   })
+  
+  return(list(win=win))
 }
 
 m <- mainWindow()
-
+while(isExtant(m$win)) Sys.sleep(1)
 

@@ -1,6 +1,7 @@
 options(connectionObserver = NULL)
 
-library(RMySQL, quietly = TRUE)
+library(DBI, quietly = TRUE)
+library(odbc, quietly = TRUE)
 library(gWidgets2, quietly = TRUE)
 library(gWidgets2tcltk, quietly = TRUE)
 options(guiToolkit="tcltk")
@@ -9,11 +10,11 @@ setwd("/path/to/working/directory")
 
 
 getList <- function(){
-  conn <- dbConnect(RMySQL::MySQL(), host="*****",  dbname="*****",
-                    username="***", password="***")
+  conn <- dbConnect(odbc::odbc(), Driver = "Oracle 11g ODBC Driver",
+                    ServerName = "*****", uid = "***", pwd = "***")
   
-  strSQL <- paste("SELECT c.`ID`, c.`Character`",
-                  "FROM `Characters` c ORDER BY c.`Character`")
+  strSQL <- paste("SELECT c.ID, c.Character",
+                  "FROM Characters c ORDER BY c.Character")
   
   df <- dbGetQuery(conn, strSQL)
   datalist <- list(c(NA, df[[1]]), c("", df[[2]]))
@@ -24,9 +25,9 @@ getList <- function(){
 
 
 getCharData <- function(conn, param){
-  strSQL <- paste("SELECT c.`Character`, c.`Description`, HEX(c.`Picture`) AS PicData",
-                  "FROM `Characters` c",
-                  "WHERE c.`Character` = ?CHAR")
+  strSQL <- paste("SELECT c.Character, c.Description, blob_to_hex(c.Picture) AS PicData",
+                  "FROM Characters c",
+                  "WHERE c.Character = ?CHAR")
   
   query <- sqlInterpolate(conn, strSQL, CHAR = param)
   df <- dbGetQuery(conn, query)
@@ -36,10 +37,10 @@ getCharData <- function(conn, param){
 
 
 getQualData <- function(conn, param){
-  strSQL <- paste("SELECT q.`Quality`",
+  strSQL <- paste("SELECT q.Quality",
                   "FROM Qualities q",
-                  "INNER JOIN `Characters` c ON q.CharacterID = c.ID",
-                  "WHERE c.`Character` = ?CHAR")
+                  "INNER JOIN Characters c ON q.CharacterID = c.ID",
+                  "WHERE c.Character = ?CHAR")
   
   query <- sqlInterpolate(conn, strSQL, CHAR = param)
   df <- dbGetQuery(conn, query)
@@ -91,17 +92,17 @@ gtmBlobHexStrToRaw <- function(hexStr) {
   return(output)
 }
 
-mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
+mainWindow <- function(times=1, charnum="Speaker, For Annie"){
   
   # TOP OF WINDOW
-  win <- gWidgets2::gwindow("Meekness Characters", height = 850, width = 400, toolkit = guiToolkit())
+  win <- gWidgets2::gwindow("Meekness Characters", height = 850, width = 400)
   
   tbl <- glayout(cont=win, spacing = 5, expand=TRUE)
   
-  tbl[1,1] <- gimage(filename = "MySQL.gif", 
+  tbl[1,1] <- gimage(filename = "Oracle.gif", 
                      dirname = getwd(), container = tbl)
   
-  tbl[2,1] <- glabel("MySQL", container = tbl)
+  tbl[2,1] <- glabel("Oracle", container = tbl)
   font(tbl[2,1]) <- list(size=14, family="Arial")
   
   
@@ -115,8 +116,8 @@ mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
   # POPULATE DATA
   runData <- function(charnum) {
     
-    conn <- dbConnect(RMySQL::MySQL(), dbname="Meekness", host="10.0.0.220",
-                      username="meekuser", password="dbworld17")
+    conn <- dbConnect(odbc::odbc(), Driver = "Oracle 11g ODBC Driver",
+                      ServerName = "10.0.0.220/XE", uid = "meekdba", pwd = "poet17")
     
     # CHARACTER IMAGE
     charData <- getCharData(conn, charnum)

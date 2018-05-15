@@ -1,6 +1,6 @@
 options(connectionObserver = NULL)
 
-library(RMySQL, quietly = TRUE)
+library(mongolite, quietly = TRUE)
 library(gWidgets2, quietly = TRUE)
 library(gWidgets2tcltk, quietly = TRUE)
 options(guiToolkit="tcltk")
@@ -9,42 +9,34 @@ setwd("/path/to/working/directory")
 
 
 getList <- function(){
-  conn <- dbConnect(RMySQL::MySQL(), host="*****",  dbname="*****",
-                    username="***", password="***")
+  conn <- mongo(collection="characters", db = "meekness", url = "mongodb://*****:27017")
   
-  strSQL <- paste("SELECT c.`ID`, c.`Character`",
-                  "FROM `Characters` c ORDER BY c.`Character`")
+  df <- conn$find(query = '{}', 
+                  fields = paste0('{"_id":true, "character":true}'))
   
-  df <- dbGetQuery(conn, strSQL)
-  datalist <- list(c(NA, df[[1]]), c("", df[[2]]))
-  dbDisconnect(conn)
+  datalist <- list(c(NA, df$`_id`), c("", sort(df$character)))
+  
+  conn <- NULL; rm(conn); invisible(gc())
   
   return(datalist)
 }
 
 
 getCharData <- function(conn, param){
-  strSQL <- paste("SELECT c.`Character`, c.`Description`, HEX(c.`Picture`) AS PicData",
-                  "FROM `Characters` c",
-                  "WHERE c.`Character` = ?CHAR")
+  df <- conn$find(query = paste0('{"character":"', param, '"}'), 
+                  fields = paste0('{"character":true, "description":true,',
+                                  ' "quote":true, "picture":true, "_id":false}'))
   
-  query <- sqlInterpolate(conn, strSQL, CHAR = param)
-  df <- dbGetQuery(conn, query)
   datalist <- as.list(df[1,])
   return(datalist)
 }
 
 
 getQualData <- function(conn, param){
-  strSQL <- paste("SELECT q.`Quality`",
-                  "FROM Qualities q",
-                  "INNER JOIN `Characters` c ON q.CharacterID = c.ID",
-                  "WHERE c.`Character` = ?CHAR")
+  df <- conn$find(query = paste0('{"character":"', param, '"}'), 
+                  fields = paste0('{"qualities":true, "_id":false}'))
   
-  query <- sqlInterpolate(conn, strSQL, CHAR = param)
-  df <- dbGetQuery(conn, query)
-  datalist <- c(df[[1]])
-  
+  datalist <- unlist(df$qualities)
   return(datalist)
 }
 
@@ -91,17 +83,17 @@ gtmBlobHexStrToRaw <- function(hexStr) {
   return(output)
 }
 
-mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
+mainWindow <- function(times=1, charnum="Laura Wingfield"){
   
   # TOP OF WINDOW
-  win <- gWidgets2::gwindow("Meekness Characters", height = 850, width = 400, toolkit = guiToolkit())
+  win <- gWidgets2::gwindow("Meekness Characters", height = 850, width = 400)
   
   tbl <- glayout(cont=win, spacing = 5, expand=TRUE)
   
-  tbl[1,1] <- gimage(filename = "MySQL.gif", 
+  tbl[1,1] <- gimage(filename = "Mongo.gif", 
                      dirname = getwd(), container = tbl)
   
-  tbl[2,1] <- glabel("MySQL", container = tbl)
+  tbl[2,1] <- glabel("DB2", container = tbl)
   font(tbl[2,1]) <- list(size=14, family="Arial")
   
   
@@ -115,12 +107,11 @@ mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
   # POPULATE DATA
   runData <- function(charnum) {
     
-    conn <- dbConnect(RMySQL::MySQL(), dbname="Meekness", host="10.0.0.220",
-                      username="meekuser", password="dbworld17")
+    conn <- mongo(collection="characters", db = "meekness", url = "mongodb://10.0.0.220:27017")
     
     # CHARACTER IMAGE
     charData <- getCharData(conn, charnum)
-    pic_data <- gtmBlobHexStrToRaw(charData[[3]])
+    pic_data <- gtmBlobHexStrToRaw(charData$picture)
     
     # CREATE TEMP PIC
     f = file (paste0(getwd(), '/tmp.png'), "wb")
@@ -135,11 +126,11 @@ mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
     unlink(paste0(getwd(), "/tmp.gif"))
     
     tbl[5,1] <- glabel("", container = tbl)
-    tbl[5,1] <- glabel(charData[[1]], container = tbl)
+    tbl[5,1] <- glabel(charData$character, container = tbl)
     font(tbl[5,1]) <- list(size=14, family="Arial")
     
     # DESCRIPTION
-    lines <- strwrap(charData[[2]], 65)
+    lines <- strwrap(charData$description, 65)
     str <- paste0("\n", paste(lines, collapse ="\n"), "\n")
     
     tbl[6,1] <- glabel(NA, container = tbl)
@@ -155,7 +146,7 @@ mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
       font(tbl[i+6,1]) <- list(size=14, family="Arial")
     }
     
-    dbDisconnect(conn)
+    conn <- NULL; rm(conn); invisible(gc())
   }
   
   runData(charnum)
@@ -169,4 +160,3 @@ mainWindow <- function(times=1, charnum='Singer, I Ain\'t Got No Home'){
 
 m <- mainWindow()
 while(isExtant(m$win)) Sys.sleep(1)
-

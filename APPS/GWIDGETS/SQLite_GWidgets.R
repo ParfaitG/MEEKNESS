@@ -1,10 +1,11 @@
 options(connectionObserver = NULL)
 
-library(RSQLite)
-library(gWidgets2)
-library(gWidgets2tcltk)
+library(RSQLite, quietly = TRUE)
+library(gWidgets2, quietly = TRUE)
+library(gWidgets2tcltk, quietly = TRUE)
+options(guiToolkit="tcltk")
 
-setwd("/path/to/Working/Directory")
+setwd("/path/to/working/directory")
 
 
 getList <- function(){
@@ -116,7 +117,7 @@ mainWindow <- function(times=1, charnum='Beetle Bailey'){
   # POPULATE DATA
   runData <- function(charnum) {
     
-    conn <- dbConnect(SQLite(), dbname = "/path/to/Meekness.db")
+    conn <- dbConnect(SQLite(), dbname = "/home/parfaitg/Databases/SQLite/Meekness.db")
     
     # CHARACTER IMAGE
     charData <- getCharData(conn, charnum)
@@ -164,8 +165,10 @@ mainWindow <- function(times=1, charnum='Beetle Bailey'){
   addHandlerChanged(charcbo, handler=function(...)  {
     runData(charnum=svalue(charcbo))
   })
+  
+  return(list(win=win))
 }
 
 m <- mainWindow()
-
+while(isExtant(m$win)) Sys.sleep(1)
 
