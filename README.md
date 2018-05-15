@@ -18,7 +18,7 @@ with online (Flask, Shiny, JSP, PHP) and offline (Tkinter, GWidgets, Swing) appl
 
 **R GWidgets**
 
-<img src="https://github.com/ParfaitG/MEEKNESS/blob/master/APPS/GWIDGETS/GWidgets_Screenshots.png" width="600px" alt="Tkinter App Screenshots"/>
+<img src="https://github.com/ParfaitG/MEEKNESS/blob/master/APPS/GWIDGETS/All_GWidgets_Screenshots.png" width="600px" alt="Tkinter App Screenshots"/>
 
 **PHP** and **JSP** Web Apps
 
