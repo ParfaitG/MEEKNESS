@@ -13,6 +13,7 @@ Python 3+ Packages:
 - psycopg2
 - pymysql
 - sqlite3
+- pymongo
 
 Python 3+ GUI Packages:
 - tkinter
