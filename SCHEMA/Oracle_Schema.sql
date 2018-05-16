@@ -54,3 +54,42 @@ BEGIN
    :new.ID := works_seq.NEXTVAL;
 END;
 /
+CREATE OR REPLACE FUNCTION V_blobtoclob(v_blob_in IN BLOB)
+RETURN CLOB
+IS
+  v_file_clob    CLOB;
+  v_file_size    INTEGER := DBMS_LOB.LOBMAXSIZE;
+  v_dest_offset  INTEGER := 1;
+  v_src_offset   INTEGER := 1;
+  v_blob_csid    NUMBER := 830;
+  v_lang_context NUMBER := DBMS_LOB.DEFAULT_LANG_CTX;
+  v_warning      INTEGER;
+  v_length       NUMBER;
+BEGIN
+    DBMS_LOB.CREATETEMPORARY(v_file_clob, TRUE);
+    DBMS_LOB.CONVERTTOCLOB(v_file_clob, v_blob_in, v_file_size, v_dest_offset,
+                           v_src_offset, v_blob_csid, v_lang_context, v_warning);
+    RETURN v_file_clob;
+EXCEPTION
+  WHEN OTHERS THEN
+             DBMS_OUTPUT.PUT_LINE('Error found');
+END;
+/
+CREATE OR REPLACE FUNCTION blob_to_hex (blob_in IN BLOB)
+RETURN CLOB
+AS
+    v_clob    CLOB;
+    v_varchar VARCHAR2(4000);
+    v_start   PLS_INTEGER := 1;
+    v_buffer  PLS_INTEGER := 2000;
+BEGIN
+    DBMS_LOB.CREATETEMPORARY(v_clob, TRUE);    
+    FOR i IN 1..CEIL(DBMS_LOB.GETLENGTH(blob_in) / v_buffer)
+    LOOP        
+       v_varchar := DBMS_LOB.SUBSTR(blob_in, v_buffer, v_start);
+       DBMS_LOB.WRITEAPPEND(v_clob, LENGTH(v_varchar), v_varchar);
+       v_start := v_start + v_buffer;
+    END LOOP;    
+   RETURN v_clob;  
+END blob_to_hex;
+/

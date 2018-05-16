@@ -45,4 +45,52 @@ CREATE UNIQUE INDEX CHARS_PIC_IDX
     ON CHARS_PIC_AUXTAB;
 COMMIT;
 
+CREATE OR REPLACE FUNCTION blob_to_hex (IN char_in VARCHAR(255))
+  RETURNS TABLE (CHARACTER VARCHAR(255),
+                 DESCRIPTION VARCHAR(1500),
+                 QUOTE VARCHAR(1500),
+                 PICTURE CLOB(1600k),
+                 PICLEN INTEGER)
+
+  LANGUAGE SQL
+  MODIFIES SQL DATA
+  NO EXTERNAL ACTION
+  DETERMINISTIC
+  BEGIN ATOMIC
+
+    DECLARE tmp_blob       BLOB(1600k);
+    DECLARE v_blob         BLOB(1600k);
+    DECLARE v_clob         CLOB(1600k) DEFAULT '';
+    DECLARE v_varchar      VARCHAR(32672);
+    DECLARE i              INTEGER DEFAULT 1;
+    DECLARE i_start        INTEGER DEFAULT 1;
+    DECLARE dest_start     INTEGER DEFAULT 1;
+    DECLARE src_start      INTEGER DEFAULT 1;
+    DECLARE v_ccsid        INTEGER DEFAULT 0;
+    DECLARE v_buffer       INTEGER DEFAULT 16000;
+    DECLARE v_lang         INTEGER DEFAULT 0;
+    DECLARE v_warning      INTEGER DEFAULT 0;
+   
+    SET v_blob = (SELECT PICTURE
+                  FROM CHARACTERS
+                  WHERE CHARACTER = char_in);
+
+    WHILE (i <= CEIL(DBMS_LOB.GETLENGTH(v_blob) / 16000) + 1) DO
+
+       SET tmp_blob = DBMS_LOB.SUBSTR(v_blob, v_buffer, i_start);
+       SET v_varchar = HEX(CAST(tmp_blob AS VARCHAR(16000)));
+
+       CALL DBMS_LOB.WRITEAPPEND_CLOB(v_clob, LENGTH(v_varchar), v_varchar);
+
+       SET i_start = i_start + v_buffer;
+       SET i = i + 1;
+    END WHILE;  
+  
+    RETURN  
+       SELECT CHARACTER, DESCRIPTION, QUOTE, v_clob, DBMS_LOB.GETLENGTH(tmp_blob)
+       FROM CHARACTERS
+       WHERE CHARACTER = char_in;
+  
+  END
+@
 
