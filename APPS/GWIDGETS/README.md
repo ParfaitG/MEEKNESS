@@ -12,7 +12,7 @@ External:
 - DB2 11 ODBC Driver
 - SQL Server 17 ODBC Driver
 
-R DB Packages:
+R DB-API Packages:
 - DBI
 - odbc
 - RPostgresSQL
