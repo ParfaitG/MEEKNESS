@@ -8,7 +8,7 @@ _One-window dialogs to select characters and showcase name, picture, description
 **REQUIRED**
 
 External:
-- Oracle 11G ODBC Driver
+- Oracle 11g ODBC Driver
 - DB2 11 ODBC Driver
 - SQL Server 17 ODBC Driver
 
