@@ -6,7 +6,7 @@ _One-window dialogs to select characters and showcase name, picture, description
 
 **REQUIRED**
 
-Python 3+ Packages:
+Python 3+ DB-API Packages:
 - cx_Oracle
 - ibm_db, ibm_db_dbi
 - pymssql
