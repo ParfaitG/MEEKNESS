@@ -1,55 +1,33 @@
 
+library(RSQLite)
+library(DBI)
 library(shiny)
 
-chardf <- readRDS("MeekCharData.rds")
-qualdf <- readRDS("MeekQualData.rds")
-points <- 0
-attempts <- 0
+conn <-dbConnect(SQLite(), dbname = "Meekness.db")
+chars <- dbGetQuery(conn, "SELECT ID, `Character` FROM Characters ORDER BY `Character`")
+dbDisconnect(conn)
 
-ui <- fluidPage(theme = "style.css",
-  headerPanel("Meekness Characters"),
-  mainPanel(
-    fluidRow(
-      column(12,
-             fluidRow(  
-               column(width = 6,
-                      selectInput("variable", NULL,
-                                  setNames(chardf$ID, chardf$Character), selected = 117),
-                      h4("Matches"),
-                      tableOutput("Matches")),
-               column(width = 6,
-                      h4(strong('Objective: Earn Most Quality Matching Points in 5 Attempts')),
-                      h4(""),
-                      fluidRow(
-                        column(h4("Points"), width = 2,
-                               textOutput("Points")),
-                        column(h4("Attempts"),  width = 2,
-                               textOutput("Attempts"))
-                      ))
-             ),
-             fluidRow(
-               
-               column(imageOutput("CharImage1"), width = 6, height=1,
-                      h3("Description"),
-                      textOutput("Description1"),
-                      h3("Quote"),
-                      textOutput("Quote1"),    
-                      h3("Qualities"),
-                      tableOutput("QualityTable1")),
-               
-               column(imageOutput("CharImage2"), width = 6, height=1,
-                      h3("Description"),
-                      textOutput("Description2"),
-                      h3("Quote"),
-                      textOutput("Quote2"),    
-                      h3("Qualities"),
-                      tableOutput("QualityTable2"))
-             )
-             
-      )
-    )
-  )
-)
+
+ui <- shinyUI(
+              fluidPage(theme = "style.css",
+                        pageWithSidebar(
+                          NULL,
+                          NULL,
+                          mainPanel(
+                            headerPanel("Meekness Characters"),
+                            selectInput("variable", NULL, setNames(chars$ID, chars$Character), 
+                                        width = "400px", selected = 117),
+                            imageOutput("CharImage"), height=1,
+                            headerPanel("Description"),
+                            textOutput("Description"),
+                            headerPanel("Quote"),
+                            textOutput("Quote"),    
+                            headerPanel("Qualities"),
+                            tableOutput("QualityTable")
+                          )
+                        )
+                       )
+              )
 
 gtmBlobHexStrToRaw <- function(hexStr) {
   
@@ -95,44 +73,54 @@ gtmBlobHexStrToRaw <- function(hexStr) {
 }
 
 getDBData <- function(input) {
-    tryCatch({
-      
-      charid <- reactive({ 
-        charid <- input$variable  
-      })
-      
-      df <- subset(chardf, ID == charid())
-      
-      meek_char <- df$Character[1]
-      pic_data <- gtmBlobHexStrToRaw(df$Picture[1])
-      
-      # CREATE TEMP PIC
-      outfile <- tempfile(fileext = '.png')
-      f = file (outfile, "wb")
-      writeBin(pic_data, con = f, useBytes=TRUE)
-      close(f)
-      
-      qualities <- subset(qualdf, CharacterID == df$ID[1])
-      
-      return(list(qualities = qualities[,c("Quality")], pic = outfile, 
-                  description = df$Description[1], quote = paste0(df$Quote[1]), "<br/>"))
-    }, 
-    warning= function(w) {
-      print(w)
-    },
-    error = function(e) {
-      print(e)
+  
+  tryCatch({
+    conn <- dbConnect(SQLite(), dbname = "Meekness.db")
+    
+    charid <- reactive({ 
+      input$variable  
     })
+    
+    sql <- paste("SELECT `ID`, `Character`, HEX(Picture) AS Picture, Description, Quote",
+                 "FROM Characters WHERE ID = ?CHAR")
+    query <- DBI::sqlInterpolate(conn, sql, CHAR = charid())
+    df <- dbGetQuery(conn, query)
+    
+    meek_char <- df$Character
+    pic_data <- gtmBlobHexStrToRaw(df$Picture)
+    
+    # CREATE TEMP PIC
+    outfile <- tempfile(fileext = '.png')
+    f = file (outfile, "wb")
+    writeBin(pic_data, con = f, useBytes=TRUE)
+    close(f)
+    
+    sql <- "SELECT Quality FROM Qualities WHERE CharacterID = ?ID"
+    query <- DBI::sqlInterpolate(conn, sql, ID = list(df$ID))
+    qualities <- dbGetQuery(conn, query)
+    
+    return(list(qualities = qualities, pic = outfile, 
+                description = df$Description, quote = df$Quote))
+  }, 
+  warning= function(w) {
+    print(w)
+  },
+  error = function(e) {
+    print(e)
+  },
+  finally = { 
+    dbDisconnect(conn) 
+  })
+  
 }
 
 server <- function(input, output, session) {
-  
-  # CHARACTER 1
+
   dbData1 <- reactive({
     getDBData(input)
   })
   
-  output$CharImage1 <- renderImage({
+  output$CharImage <- renderImage({
     list(src =  dbData1()$pic,
          contentType = 'image/jpg',
          width = 400,
@@ -140,65 +128,18 @@ server <- function(input, output, session) {
          alt = "Meekness character image")
   }, deleteFile = TRUE)
   
-  output$QualityTable1 <- renderTable({
+  output$QualityTable <- renderTable({
     dbData1()$qualities
   }, colnames = FALSE)
   
-  output$Description1 <- renderText({
-    paste0(dbData1()$description)
+  output$Description <- renderText({
+    paste0(dbData1()$description, "\n")
   })
   
-  output$Quote1 <- renderText({
-    tmp <- dbData1()$quote
-    ifelse(tmp=="NA"|is.na(tmp), "", paste0(tmp, ""))
+  output$Quote <- renderText({
+    dbData1()$quote
   })
-  
-  # CHARACTER 2
-  dbData2 <- reactive({
-    getDBData(list(variable = sample(1:150, 1), var2 = input$variable))
-  })
-  
-  output$CharImage2 <- renderImage({
-    list(src =  dbData2()$pic,
-         contentType = 'image/jpg',
-         width = 400,
-         height = 300,
-         alt = "Meekness character image")
-  }, deleteFile = TRUE)
-  
-  output$QualityTable2 <- renderTable({
-    dbData2()$qualities
-  }, colnames = FALSE)
-  
-  output$Description2 <- renderText({
-    paste0(dbData2()$description)
-  })
-  
-  output$Quote2 <- renderText({
-    tmp <- dbData2()$quote
-    ifelse(tmp=="NA"|is.na(tmp), "", paste0(tmp, ""))
-  })
-  
-  output$Matches <- renderTable({
-    intersect(dbData1()$qualities, dbData2()$qualities)
-  }, colnames = FALSE)
-  
-  output$Points <- renderText({
-    if(attempts == 5) {
-      points <<- 0
-      attempts <<- 0
-    }
-    points <<- points + length(intersect(dbData1()$qualities, dbData2()$qualities))
-    
-    return(paste0(points))
-  })
-  
-  output$Attempts <- renderText({
-    m <- length(intersect(dbData1()$qualities, dbData2()$qualities))
-    attempts <<- attempts + 1
-    
-    return(paste0(attempts))
-  })
+
 }
 
 shinyApp(ui, server)
