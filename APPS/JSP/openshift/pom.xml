@@ -17,11 +17,11 @@
           <version>3.1.0</version>
       </dependency>
 
-      <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+      <!-- https://mvnrepository.com/artifact/postgresql/postgresql -->
       <dependency>
           <groupId>postgresql</groupId>
           <artifactId>postgresql</artifactId>
-          <version>42.2.2</version>
+          <version>9.1-901-1.jdbc4</version>
       </dependency>
 
       <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-io -->
