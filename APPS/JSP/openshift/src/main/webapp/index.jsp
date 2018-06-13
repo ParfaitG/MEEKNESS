@@ -21,9 +21,9 @@
   <% 
       String pg_host = System.getenv("MEEKNESS_POSTGRESQL_SERVICE_HOST");
       String pg_port = System.getenv("MEEKNESS_POSTGRESQL_SERVICE_PORT");
-      String pg_db = System.getenv("POSTGRESQL_DATABASE");
-      String pg_user = System.getenv("POSTGRESQL_USER");
-      String pg_pwd = System.getenv("POSTGRESQL_PASSWORD");
+      String pg_db = System.getenv("DB_DATABASE");
+      String pg_user = System.getenv("DB_USERNAME");
+      String pg_pwd = System.getenv("DB_PASSWORD");
 
       String url = "jdbc:postgresql://" + pg_host + ":" + pg_port + "/" + pg_db;          
 
