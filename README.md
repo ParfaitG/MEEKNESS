@@ -24,13 +24,13 @@ with online (Flask, Shiny, JSP, PHP) and offline (Tkinter, GWidgets, Swing) appl
 
 <img src="https://github.com/ParfaitG/MEEKNESS/blob/master/APPS/PHP/App_Screenshot.png" height="400px" alt="PHP Web App Screenshot"/> <img src="https://github.com/ParfaitG/MEEKNESS/blob/master/APPS/JSP/App_Screenshot.png" height="400px" alt="JSP Web App Screenshot"/>
 
-**Flask**
+**Live Apps**
 
-http://parfaitg.pythonanywhere.com/
+- [**OpenShift (Java/Postgres)**](http://meekness-meekness.193b.starter-ca-central-1.openshiftapps.com/)
 
-**Shiny**
+- [**Flask (Python/MySQL)**](http://parfaitg.pythonanywhere.com/)
 
-https://parfaitg.shinyapps.io/Meekness/
+- [**Shiny (R/SQLite)**](https://parfaitg.shinyapps.io/Meekness/)
 
 
 
