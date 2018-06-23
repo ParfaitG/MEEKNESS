@@ -41,6 +41,7 @@
     <form class="dark-matter" action="<%=request.getRequestURI()%>">
        <h2>Character</h2>
        <select name="meekchar" onchange="this.form.submit()">
+          <option value=""></option>
   <%
       while (rs.next()) {
   %>
@@ -133,7 +134,7 @@
 
   <%
 
-      if((request.getParameter("isSubmit") == null)?false:true){
+      if((request.getParameter("isSubmit") == null)?false:true && (request.getParameter("meekchar").isEmpty())?false:true){
 
          List<String> charList = getChar(conn, Integer.parseInt(request.getParameter("meekchar")));
 
