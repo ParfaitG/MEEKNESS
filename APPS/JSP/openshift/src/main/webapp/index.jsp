@@ -41,7 +41,7 @@
     <form class="dark-matter" action="<%=request.getRequestURI()%>">
        <h2>Character</h2>
        <select name="meekchar" onchange="this.form.submit()">
-          <option value=""></option>
+          <option value="">Select a Character</option>
   <%
       while (rs.next()) {
   %>
