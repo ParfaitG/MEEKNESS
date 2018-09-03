@@ -7,198 +7,85 @@
   <div class="dark-matter">
     <h1>Meekness Characters</h1>
 
+  <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+  <%@ page contentType="text/html" pageEncoding="UTF-8" import="proc.util.MeeknessData" %>
+  <%@ page import="java.util.List" %>
+
   <%@ page trimDirectiveWhitespaces="true" %>
 
-  <%@ page import = "java.util.*" %>
-  <%@ page import = "java.sql.*" %>
-  <%@ page import = "java.io.InputStream" %>
-  <%@ page import = "java.io.ByteArrayInputStream" %>
-  <%@ page import = "java.io.ByteArrayOutputStream" %>
-  <%@ page import = "java.io.IOException" %>
-  <%@ page import = "org.apache.commons.io.IOUtils" %>
-  <%@ page import = "org.apache.commons.codec.binary.Base64" %>
-
   <% 
-      String pg_host = System.getenv("MEEKNESS_POSTGRESQL_SERVICE_HOST");
-      String pg_port = System.getenv("MEEKNESS_POSTGRESQL_SERVICE_PORT");
-      String pg_db = System.getenv("DB_DATABASE");
-      String pg_user = System.getenv("DB_USERNAME");
-      String pg_pwd = System.getenv("DB_PASSWORD");
 
-      String url = "jdbc:postgresql://" + pg_host + ":" + pg_port + "/" + pg_db;          
+       MeeknessData myclass = new MeeknessData();
 
-      Connection conn = null;  
-      Class.forName("org.postgresql.Driver");
-      conn = DriverManager.getConnection(url, pg_user, pg_pwd);  
+       List<String[]> charCbo = myclass.charDropDown();
+       session.setAttribute("charCbo", charCbo); 
 
-      String strSQL = "SELECT c.ID, c.Character FROM Characters c ORDER BY c.Character";
+       Integer meekchar;
 
-      PreparedStatement pstmt = conn.prepareStatement(strSQL);
+       if((request.getParameter("isSubmit") == null)?false:true){
+            meekchar = Integer.parseInt(request.getParameter("meekchar"));
+       } else {
+            meekchar = 197;
+       }
 
-      ResultSet rs = pstmt.executeQuery();
-   
+       List<String> charList = myclass.getChar(meekchar);
+       session.setAttribute("charList", charList); 
+
+       List<String> qualList = myclass.getQual(meekchar);
+       session.setAttribute("qualList", qualList); 
+
+       List<String[]> mcharList = myclass.getMatchChars(meekchar);
+       session.setAttribute("mcharList", mcharList); 
+
+       List<String> mqualList = myclass.getMatchQuals(meekchar);
+       session.setAttribute("mqualList", mqualList); 
   %>
-    <form class="dark-matter" action="<%=request.getRequestURI()%>">
+
+    <form id="meek_form" class="dark-matter" method="post" action="<%=request.getRequestURI()%>">
        <h2>Character</h2>
        <select name="meekchar" onchange="this.form.submit()">
           <option value="">Select a Character</option>
-  <%
-      while (rs.next()) {
-  %>
-          <option value="<%= rs.getInt("ID") %>"><%= rs.getString("Character") %></option>
-  <%
-      }
-      rs.close();
-      pstmt.close();
-  %>
+             <c:forEach items="${charCbo}" var="value">
+                <option value="${value[0]}">${value[1]}</option>
+             </c:forEach>
        </select>
        <input type="hidden" name="isSubmit" value="true">
     </form>
 
-  <%!
-
-      public List<String> getChar(Connection conn, int i){
-
-         List<String> charList = new ArrayList<String>(); 
-
-	 String strSQL = "SELECT c.Character, c.Description, c.Quote, c.Picture FROM Characters c WHERE c.ID = ?";
-
-         try { 
-	      PreparedStatement pstmt = conn.prepareStatement(strSQL);
-              pstmt.setInt(1, i);
-
-	      ResultSet rs = pstmt.executeQuery();
-
-	      rs.next();
-	      rs.getString(1);
-
-	      //Blob blob = rs.getBlob("Picture");
-              InputStream blob = ((InputStream) rs.getBinaryStream("Picture"));
-	      //byte[] returnBytes = blob.getBytes(1, (int)blob.length());
-              byte[] returnBytes = IOUtils.toByteArray(blob);
-
-	      StringBuilder sb = new StringBuilder();
-	      sb.append("data:image/jpeg;base64,");
-	      sb.append(Base64.encodeBase64String(returnBytes));
-
-	      String imgData = sb.toString();
-              String descData = rs.getString(2);
-              String quoteData = (rs.getString(3) == null) ? "" : rs.getString(3);
-
-              charList.add(imgData);
-              charList.add(descData);
-              charList.add(quoteData);
-
-	      rs.close();
-	      pstmt.close();
- 
-	 } catch ( SQLException err ) {            
-	     System.out.println(err.getMessage());           
-	 } catch ( IOException ioe ) {            
-             System.out.println(ioe.getMessage());            
-         }    
-
-         return charList;
-      }
-
-      public List<String> getQual(Connection conn, int i){
-
-         List<String> l = new ArrayList<String>();
-
-	 String strSQL = "SELECT q.Quality " +
-	                 " FROM Characters c INNER JOIN Qualities q" + 
-		         "  ON q.CharacterID = c.ID" + 
-		         " WHERE c.ID = ?";
-
-         try { 
-
-	      PreparedStatement pstmt = conn.prepareStatement(strSQL);
-              pstmt.setInt(1, i);
-
-	      ResultSet rs = pstmt.executeQuery();
-
-	      while (rs.next()) {
-	         l.add(rs.getString("Quality"));
-     	      }
-
-	 } catch ( SQLException err ) {            
-	      System.out.println(err.getMessage());          
-	 }  
-
-         return l;
-
-      }
-    
-    
-  %>
-
-  <%
-
-      if((request.getParameter("isSubmit") == null)?false:true && (request.getParameter("meekchar").isEmpty())?false:true){
-
-         List<String> charList = getChar(conn, Integer.parseInt(request.getParameter("meekchar")));
-
-  %>
-
-	 <img src="<%= charList.get(0) %>" alt="Meek Character" height="300" width="400">
-	 <h3>Description</h3>
-         <p><%= charList.get(1) %></p>
-	 <h3>Quote</h3>
-         <p><%= charList.get(2) %></p>
-	 <h3>Qualities</h3>
-	 <ul>
-
-  <%
-         List<String> qualList = getQual(conn, Integer.parseInt(request.getParameter("meekchar")));
-
-         for (String s: qualList) {
-  %>
-	     <li><%= s %></li>
-
-  <%
-     	 }
-	 rs.close();
-	 pstmt.close();
-  %>
-
-	  </ul>
+    <img src="<c:out value="${charList[0]}"/>" alt="Meek Character" height="300" width="400">
+    <h3>Description</h3>
+    <p><c:out value="${charList[1]}"/></p>
+    <h3>Quote</h3>
+    <p><c:out value="${charList[2]}"/></p>
+    <h3>Qualities</h3>
+    <ul>
+       <c:forEach items="${qualList}" var="value">
+         <li>${value}</li>
+       </c:forEach>
+    </ul>
+    <h3>Matches</h3>
+    <ul>
+       <li>Matches <c:out value="${mcharList.size()}"/> out of 150 characters</li>
+       <br/>
+       <li>Top 5 Characters Matches</li>
+       <ul>
+          <c:forEach begin="0" end="4" varStatus="i">
+	    <form id="charlinks_${i.index}" action="<%= request.getRequestURI() %>" method="post">
+               <input type="hidden" name="meekchar" value="${mcharList[i.index][0]}">
+               <input type="hidden" name="isSubmit" value="true">
+	       <li><a href="#" onclick="document.getElementById('charlinks_${i.index}').submit();">${mcharList[i.index][1]}</a></li>
+            </form>
+          </c:forEach>
+       </ul>
+       <br/>
+       <li>Top 5 Quality Matches</li>
+           <ul>
+             <c:forEach begin="0" end="4" varStatus="i">
+   	        <li>${mqualList[i.index]}</li>
+             </c:forEach>
+           </ul>
+     </ul>
      </div>
 
-  <%
-      } else {
-
-         List<String> charList = getChar(conn, 197);
-
-  %>
-
-	 <img src="<%= charList.get(0) %>" alt="Meek Character" height="300" width="400">
-	 <h3>Description</h3>
-         <p><%= charList.get(1) %></p>
-	 <h3>Quote</h3>
-         <p><%= charList.get(2) %></p>
-	 <h3>Qualities</h3>
-	 <ul>
-
-  <%
-         List<String> qualList = getQual(conn, 197);
-
-         for (String s: qualList) {
-  %>
-	     <li><%= s %></li>
-
-  <%
-     	 }
-	 rs.close();
-	 pstmt.close();
-  %>
-
-	  </ul>
-     </div>
-
-  <%
-
-     }
-     conn.close();
-  %>
 </body>
 </html>

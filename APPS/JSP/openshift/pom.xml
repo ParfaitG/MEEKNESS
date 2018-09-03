@@ -37,6 +37,13 @@
           <artifactId>commons-codec</artifactId>
           <version>1.4</version>
       </dependency>
+
+      <!-- http://mvnrepository.com/artifact/javax.servlet/jstl -->
+      <dependency>
+          <groupId>javax.servlet</groupId>
+          <artifactId>jstl</artifactId>
+          <version>1.2</version>
+      </dependency>
   </dependencies>
   <build>
     <finalName>getting-started-tomcat</finalName>
