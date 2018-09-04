@@ -100,4 +100,9 @@
     margin-left:auto;
     margin-right:auto;
 }
+#charlinks_0, #charlinks_1, #charlinks_2, #charlinks_3, #charlinks_4 {
+    margin:0;
+    padding:0;
+    display:inline;
+}
 

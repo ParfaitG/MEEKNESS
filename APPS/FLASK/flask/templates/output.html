@@ -6,15 +6,13 @@
 </head>
 
 <body>
-    <div class="smart-green">
+    <div class="elegant-aero">
         <div class="pagetitle">
             <h1>Meekness Characters</h1>
         </div>
         <div id="main">
-            <br/>
+            <h2>Characters</h2>
             <form action="{{ url_for('character') }}" method="post">
-                <h2>Characters</h2>
-                <br/>
                 <select name="meek_pick" onchange="this.form.submit()">
                     <option value="" disabled="disabled" selected="selected">Please select a name</option>
                     {% for d in meekdata.Chars %}
@@ -22,7 +20,6 @@
                     {% endfor %}
                 </select>
             </form>
-            <br/>
             <h3>{{ meekdata.Character }}</h3>
             <br/>
             <div><img src="{{ meekdata.Picture }}" height="300" width="400" alt="character image" /></div>
@@ -35,6 +32,28 @@
                 {% for k,v in meekdata.Qualities.items() %}
                 <li>{{ v }}</li>
                 {% endfor %}
+            </ul>
+            <h3>Matches</h3>
+            <ul>
+                <li>Matches {{ meekdata.MatchedCount }} out of 150 Characters</li>
+                <br/>
+                <li>Top 5 Matched Characters</h3></li>
+                <br/>
+                <ul>
+                    {% for k,v in meekdata.MatchedChars.items() %}
+	            <form id="charlinks_{{ k }}" action="{{ url_for('character') }}" method="post">
+                       <input type="hidden" name="meek_pick" value="{{ v[0] }}">
+                       <li><a href="#" onclick="document.getElementById('charlinks_{{ k }}').submit();">{{ v[1] }}</a></li> 
+                    </form>
+                    {% endfor %}
+                </ul>
+                <br/>
+                <li>Top 5 Matched Qualities</li>
+                <ul>
+                    {% for k,v in meekdata.MatchedQuals.items() %}
+	            <li>{{ v[0] }}</li>
+                    {% endfor %}
+                </ul>
             </ul>
         </div>
     </div>

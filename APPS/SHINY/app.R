@@ -23,7 +23,12 @@ ui <- shinyUI(
                             headerPanel("Quote"),
                             textOutput("Quote"),    
                             headerPanel("Qualities"),
-                            tableOutput("QualityTable")
+                            tableOutput("QualityTable"),
+                            headerPanel("Top 5 Matched Characters"),
+                            textOutput("MatchCount"),  
+                            tableOutput("MatchedCharsTable"),
+                            headerPanel("Top 5 Matched Qualities"),
+                            tableOutput("MatchedQualsTable")
                           )
                         )
                        )
@@ -99,8 +104,42 @@ getDBData <- function(input) {
     query <- DBI::sqlInterpolate(conn, sql, ID = list(df$ID))
     qualities <- dbGetQuery(conn, query)
     
+    # TOP MATCHING CHARACTERS
+    sql <- "WITH cte AS 
+              (SELECT c.ID, c.Character, q.Quality 
+               FROM Characters c
+               INNER JOIN Qualities q ON c.ID = q.CharacterID)
+
+            SELECT c2.Character As QualCount
+            FROM cte c1
+            INNER JOIN cte c2 ON c1.Quality = c2.Quality
+            WHERE c1.ID = ?ID1 AND c2.ID <> ?ID2
+            GROUP BY c1.Character, c2.Character
+            ORDER BY Count(*) DESC"
+    
+    query <- DBI::sqlInterpolate(conn, sql, ID1 = charid(), ID2 = charid())
+    top_chars_df <- dbGetQuery(conn, query)
+    
+    # TOP MATCHING QUALITIES
+    sql <- "WITH cte AS 
+              (SELECT c.ID, c.Character, q.Quality 
+               FROM Characters c
+               INNER JOIN Qualities q ON c.ID = q.CharacterID)
+
+            SELECT c1.Quality
+            FROM cte c1
+            INNER JOIN cte c2 ON c1.Quality = c2.Quality
+            WHERE c1.ID = ?ID1 AND c2.ID <> ?ID2
+            GROUP BY c1.Quality
+            ORDER BY Count(*) DESC
+            LIMIT 5"
+    
+    query <- DBI::sqlInterpolate(conn, sql, ID1 = charid(), ID2 = charid())
+    top_quals_df <- dbGetQuery(conn, query)
+    
     return(list(qualities = qualities, pic = outfile, 
-                description = df$Description, quote = df$Quote))
+                description = df$Description, quote = df$Quote,
+                top_chars = top_chars_df, top_quals = top_quals_df))
   }, 
   warning= function(w) {
     print(w)
@@ -116,12 +155,12 @@ getDBData <- function(input) {
 
 server <- function(input, output, session) {
 
-  dbData1 <- reactive({
+  dbData <- reactive({
     getDBData(input)
   })
   
   output$CharImage <- renderImage({
-    list(src =  dbData1()$pic,
+    list(src =  dbData()$pic,
          contentType = 'image/jpg',
          width = 400,
          height = 300,
@@ -129,17 +168,28 @@ server <- function(input, output, session) {
   }, deleteFile = TRUE)
   
   output$QualityTable <- renderTable({
-    dbData1()$qualities
+    dbData()$qualities
   }, colnames = FALSE)
   
   output$Description <- renderText({
-    paste0(dbData1()$description, "\n")
+    paste0(dbData()$description, "\n")
   })
   
   output$Quote <- renderText({
-    dbData1()$quote
+    dbData()$quote
   })
 
+  output$MatchedCharsTable <- renderTable({
+    dbData()$top_chars[1:5,]
+  }, colnames = FALSE)
+  
+  output$MatchCount <- renderText({
+    paste("Matches", nrow(dbData()$top_chars), "out of 150 Characters")
+  })
+  
+  output$MatchedQualsTable <- renderTable({
+    dbData()$top_quals
+  }, colnames = FALSE)
 }
 
 shinyApp(ui, server)
