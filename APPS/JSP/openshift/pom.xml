@@ -17,6 +17,20 @@
           <version>3.1.0</version>
       </dependency>
 
+      <!-- http://mvnrepository.com/artifact/javax.servlet/jstl -->
+      <dependency>
+          <groupId>javax.servlet.jsp.jstl</groupId>
+          <artifactId>jstl</artifactId>
+          <version>1.2</version>
+      </dependency>
+
+      <!-- http://mvnrepository.com/artifact/javax.servlet/jstl -->
+      <dependency>
+          <groupId>javax.servlet.jsp.jstl</groupId>
+          <artifactId>jstl</artifactId>
+          <version>1.2</version>
+      </dependency>
+
       <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
       <dependency>
           <groupId>org.postgresql</groupId>
