@@ -28,6 +28,8 @@ with online (Flask, Shiny, JSP, PHP) and offline (Tkinter, GWidgets, Swing) appl
 
 - [**OpenShift (Java/Postgres)**](http://meekness-meekness.193b.starter-ca-central-1.openshiftapps.com/)
 
+- [**Heroku (PHP/Postgres)**](https://meekness.herokuapp.com)
+
 - [**Flask (Python/MySQL)**](http://parfaitg.pythonanywhere.com/)
 
 - [**Shiny (R/SQLite)**](https://parfaitg.shinyapps.io/Meekness/)
