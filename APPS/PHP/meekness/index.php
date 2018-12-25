@@ -11,13 +11,18 @@
     // DEFINE FUNCTIONS
     function dbConnect() {
 
-	$host='****';
-	$database='****';
-	$username='***';
-	$password='***';
+        $db = parse_url(getenv("DATABASE_URL"));
 
 	# open connection
-	$conn = new PDO("mysql:host=$host;port=3306;dbname=$database",$username,$password);
+	$conn = new PDO("pgsql:" . sprintf(
+                         "host=%s;port=%s;user=%s;password=%s;dbname=%s",
+                             $db["host"],
+                             $db["port"],
+                             $db["user"],
+                             $db["pass"],
+                             ltrim($db["path"], "/")
+                       ));
+
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         return $conn;	    
@@ -26,7 +31,7 @@
     function getChar($dbh, $orig) {
         
         # GET CHARACTER AND DATA
-	$sql = "SELECT c.`Character`, c.Description, c.Quote, c.Picture FROM Characters c WHERE c.ID = ?";
+	$sql = "SELECT c.character, c.description, c.quote, encode(c.picture, 'base64') AS base64_pic FROM characters c WHERE c.ID = ?";
 
 	$STH = $dbh->prepare($sql);
         $STH->bindParam(1, $orig, PDO::PARAM_INT);
@@ -34,7 +39,7 @@
 
         $row = $STH->fetch(PDO::FETCH_ASSOC);
 
-        return array(base64_encode($row['Picture']), $row['Description'], $row['Quote']);
+        return array($row['base64_pic'], $row['description'], $row['quote']);
 
     }
 
@@ -54,7 +59,7 @@
         $STH->setFetchMode(PDO::FETCH_ASSOC);
 
         while($row = $STH->fetch()) {
-            $qualities[] = $row['Quality'];
+            $qualities[] = $row['quality'];
         }
 
         return $qualities;
@@ -64,19 +69,19 @@
     function getCharMatches($dbh, $orig) {
 
         # MATCHED CHARACTERS
-        $sql = "SELECT c2.ID, c2.Character As MatchedChar
+        $sql = "SELECT c2.ID, c2.Character As matched_char
                 FROM 
-                 (SELECT c.ID, c.`Character`, q.Quality
-                  FROM `Characters` c
+                 (SELECT c.ID, c.Character, q.Quality
+                  FROM Characters c
                   INNER JOIN Qualities q ON c.ID = q.CharacterID
                  ) c1
                 INNER JOIN 
-                 (SELECT c.ID, c.`Character`, q.Quality 
-                  FROM `Characters` c
+                 (SELECT c.ID, c.Character, q.Quality 
+                  FROM Characters c
                   INNER JOIN Qualities q ON c.ID = q.CharacterID
                  ) c2 ON c1.Quality = c2.Quality
                 WHERE c1.ID = ? AND c2.ID <> ?
-                GROUP BY c1.`Character`, c2.ID, c2.`Character`
+                GROUP BY c1.Character, c2.ID, c2.Character
                 ORDER BY Count(*) DESC";
 
       	$STH = $dbh->prepare($sql);
@@ -89,7 +94,7 @@
         $STH->setFetchMode(PDO::FETCH_ASSOC);
 
         while($row = $STH->fetch()) {
-            $qualities[] = array($row['ID'], $row['MatchedChar']);
+            $qualities[] = array($row['id'], $row['matched_char']);
         }
 
         return $qualities;
@@ -98,19 +103,19 @@
     function getQualMatches($dbh, $orig) {
 
         # MATCHED QUALITIES
-        $sql = "SELECT c1.Quality As MatchedQual
+        $sql = "SELECT c1.Quality As matched_qual
                 FROM 
-                 (SELECT c.ID, c.`Character`, q.Quality
-                  FROM `Characters` c
+                 (SELECT c.ID, c.Character, q.Quality
+                  FROM Characters c
                   INNER JOIN Qualities q ON c.ID = q.CharacterID
                  ) c1
                 INNER JOIN 
-                 (SELECT c.ID, c.`Character`, q.Quality 
-                  FROM `Characters` c
+                 (SELECT c.ID, c.Character, q.Quality 
+                  FROM Characters c
                   INNER JOIN Qualities q ON c.ID = q.CharacterID
                  ) c2 ON c1.Quality = c2.Quality
                 WHERE c1.ID = ? AND c2.ID <> ?
-                GROUP BY c1.`Quality`
+                GROUP BY c1.Quality
                 ORDER BY Count(*) DESC";
 
 
@@ -124,7 +129,7 @@
         $STH->setFetchMode(PDO::FETCH_ASSOC);
 
         while($row = $STH->fetch()) {
-            $qualities[] = $row['MatchedQual'];
+            $qualities[] = $row['matched_qual'];
         }
 
         return $qualities;
@@ -132,16 +137,19 @@
     }
 
     function dbClose($dbh) {
+	# close the connection
 	$dbh = null;
     }
 
+
+    // BUILD FORM
     $dbh = dbConnect();
 
-    $sql = "SELECT `ID`, `Character` FROM Characters ORDER BY `Character`";
+    $sql = "SELECT id, character FROM characters ORDER BY character";
     $STH = $dbh->query($sql);
 
   ?>
-
+  
     <form name="meekform" class="smart-green" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
        <h2>Character</h2>
           <select name="meekchar" onchange="this.form.submit()">
@@ -150,7 +158,7 @@
        
 	  while($row = $STH->fetch(PDO::FETCH_ASSOC)) {
   ?>
-              <option value="<?php echo $row["ID"]; ?>"><?php echo $row["Character"]; ?></option>
+              <option value="<?php echo $row["id"]; ?>"><?php echo $row["character"]; ?></option>
   <?php
           }
 
@@ -166,7 +174,7 @@
     if (isset($_POST['isSubmit'])) { 
         $meek_char = $_POST['meekchar'];
     } else {
-        $meek_char = 25;
+        $meek_char = 210;
     }
 
         $dbh = dbConnect();
